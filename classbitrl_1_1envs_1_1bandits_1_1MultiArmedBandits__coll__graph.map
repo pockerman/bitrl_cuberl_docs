@@ -1,0 +1,7 @@
+<map id="bitrl::envs::bandits::MultiArmedBandits" name="bitrl::envs::bandits::MultiArmedBandits">
+<area shape="rect" id="Node000001" title=" " alt="" coords="49,181,203,221"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1envs_1_1EnvBase.html" title=" " alt="" coords="5,79,247,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,147,129,181,123,181,123,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="33,5,219,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,44,129,79,123,79,123,44"/>
+</map>

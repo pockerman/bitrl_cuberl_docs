@@ -1,0 +1,9 @@
+<map id="libs/bitrl/src/bitrl/sensors/messages/camera.h" name="libs/bitrl/src/bitrl/sensors/messages/camera.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="116,5,327,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,160,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,48,116,89,114,84,187,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="184,93,259,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,46,224,79,219,79,219,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="283,93,341,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,44,290,82,286,86,242,48"/>
+</map>

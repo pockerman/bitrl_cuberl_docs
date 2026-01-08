@@ -1,0 +1,7 @@
+<map id="bitrl::utils::geom::GeomPoint&lt; spacedim, T &gt;" name="bitrl::utils::geom::GeomPoint&lt; spacedim, T &gt;">
+<area shape="rect" id="Node000001" title="A class that describes a point with spacedim spatial dimension space." alt="" coords="5,37,216,77"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1utils_1_1geom_1_1FaceElement_3_01spacedim_00_010_01_4.html" title=" " alt="" coords="264,5,487,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,40,263,36,264,41,230,46"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1utils_1_1trajectory_1_1WayPoint.html" title="Helper class to represent a waypoint." alt="" coords="283,69,468,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,69,283,75,282,81,229,74"/>
+</map>

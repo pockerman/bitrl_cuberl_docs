@@ -1,0 +1,15 @@
+<map id="libs/bitrl/src/bitrl/sensors/sensor_type_enum.h" name="libs/bitrl/src/bitrl/sensors/sensor_type_enum.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="175,5,333,60"/>
+<area shape="rect" id="Node000002" href="$bitrl__types_8h.html" title=" " alt="" coords="187,108,321,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,60,257,94,251,94,251,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,97,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="222,136,98,179,96,174,221,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="121,181,192,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="240,136,185,175,182,171,237,131"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="216,181,292,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="257,134,257,168,251,168,251,134"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,181,375,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="270,131,322,171,319,175,267,135"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="400,181,463,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="283,131,391,174,389,179,282,136"/>
+</map>

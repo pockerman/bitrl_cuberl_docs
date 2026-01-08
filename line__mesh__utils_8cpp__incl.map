@@ -1,0 +1,21 @@
+<map id="libs/bitrl/src/bitrl/utils/geometry/mesh/utils/line_mesh_utils.cpp" name="libs/bitrl/src/bitrl/utils/geometry/mesh/utils/line_mesh_utils.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="757,5,943,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,177,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="757,45,506,70,192,111,191,105,505,65,756,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="202,108,357,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="757,49,582,75,371,110,370,105,581,70,756,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="381,108,570,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="757,60,565,107,564,102,756,55"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="594,108,749,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="801,62,721,104,718,99,799,58"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="773,108,927,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="853,60,853,94,847,94,847,60"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="951,108,1106,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="901,58,982,99,979,104,899,62"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1131,108,1327,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="944,54,1140,102,1138,107,943,59"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1351,108,1530,148"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="944,45,1338,105,1337,110,943,50"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1555,115,1617,141"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="943,33,1064,38,1215,50,1379,72,1462,87,1543,105,1551,108,1549,113,1541,111,1461,92,1379,77,1214,55,1064,43,943,38"/>
+</map>

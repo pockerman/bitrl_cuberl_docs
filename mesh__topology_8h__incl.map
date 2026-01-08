@@ -1,0 +1,33 @@
+<map id="libs/bitrl/src/bitrl/utils/geometry/mesh/mesh_topology.h" name="libs/bitrl/src/bitrl/utils/geometry/mesh/mesh_topology.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,167,60"/>
+<area shape="rect" id="Node000002" href="$bitrl__types_8h.html" title=" " alt="" coords="106,284,239,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,61,75,98,72,143,78,191,85,214,96,234,116,257,140,275,137,279,113,261,92,238,80,216,73,192,67,143,70,97,77,60"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="12,357,75,383"/>
+<area shape="poly" id="edge18_Node000001_Node000007" title=" " alt="" coords="80,61,67,109,57,175,51,240,46,344,41,343,46,240,52,174,62,107,75,59"/>
+<area shape="rect" id="Node000008" href="$element__traits_8h.html" title=" " alt="" coords="395,108,569,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="168,50,389,102,388,107,166,56"/>
+<area shape="rect" id="Node000010" href="$mesh__connectivity_8h.html" title=" " alt="" coords="85,108,284,148"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="116,58,157,97,153,101,112,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="193,357,285,383"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="186,308,221,345,217,349,182,311"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="99,357,169,383"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="169,311,149,347,144,344,164,308"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="393,357,469,383"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="215,307,381,352,380,357,214,312"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="310,357,369,383"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="200,307,301,349,299,354,198,312"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="153,312,78,353,76,348,151,307"/>
+<area shape="rect" id="Node000009" href="$edge__face__selector_8h.html" title=" " alt="" coords="469,196,671,236"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="503,146,543,184,539,188,500,150"/>
+<area shape="poly" id="edge14_Node000010_Node000002" title=" " alt="" coords="190,148,193,189,191,236,183,271,178,270,186,236,188,189,185,149"/>
+<area shape="poly" id="edge16_Node000010_Node000005" title=" " alt="" coords="285,134,318,142,350,154,380,171,405,194,427,230,437,271,439,311,437,344,432,343,434,311,431,272,422,232,401,198,377,176,348,159,316,147,284,139"/>
+<area shape="poly" id="edge17_Node000010_Node000007" title=" " alt="" coords="150,150,121,171,96,198,76,234,62,274,48,344,43,343,57,273,71,232,92,194,118,167,147,146"/>
+<area shape="rect" id="Node000011" href="$bitrl__consts_8h.html" title=" " alt="" coords="253,203,391,229"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="216,146,293,194,291,198,213,150"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="107,203,177,229"/>
+<area shape="poly" id="edge15_Node000010_Node000013" title=" " alt="" coords="178,149,156,192,152,190,173,147"/>
+<area shape="poly" id="edge11_Node000011_Node000002" title=" " alt="" coords="301,231,208,280,205,275,299,226"/>
+<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="332,228,345,253,357,283,358,316,351,345,346,344,352,315,351,285,341,255,327,230"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="264,284,343,309"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="322,229,312,271,307,270,317,228"/>
+</map>

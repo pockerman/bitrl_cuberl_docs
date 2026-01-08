@@ -1,0 +1,11 @@
+<map id="bitrl::utils::io::FileReaderBase" name="bitrl::utils::io::FileReaderBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="73,167,286,192"/>
+<area shape="rect" id="Node000004" href="$classbitrl_1_1utils_1_1io_1_1CSVFileReader.html" title="The CSVFileReader class." alt="" coords="5,240,167,280"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,203,110,242,107,238,153,199"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1utils_1_1io_1_1JSONFileReader.html" title=" " alt="" coords="191,240,357,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="205,199,253,238,249,242,202,203"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1utils_1_1io_1_1FileHandlerBase.html" title=" " alt="" coords="86,79,273,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,132,182,166,177,166,177,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,5,254,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,44,182,79,177,79,177,44"/>
+</map>

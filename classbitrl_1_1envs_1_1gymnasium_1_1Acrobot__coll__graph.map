@@ -1,0 +1,11 @@
+<map id="bitrl::envs::gymnasium::Acrobot" name="bitrl::envs::gymnasium::Acrobot">
+<area shape="rect" id="Node000001" title="class Acrobot. The Acrobot class. Interface for Gymnasium::Acrobot environment." alt="" coords="813,52,985,92"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1envs_1_1gymnasium_1_1GymnasiumEnvBase.html" title=" " alt="" coords="495,30,764,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="778,69,813,69,813,75,778,75"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1envs_1_1EnvBase.html" title="Base class interface for Reinforcement Learning environments." alt="" coords="145,5,367,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,38,495,53,494,58,380,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,13,96,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,23,145,23,145,28,110,28"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1network_1_1RESTRLEnvClient.html" title="Utility class to facilitate HTTP requests between the environments REST API and C++ drivers." alt="" coords="161,69,351,109"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="365,82,494,76,495,81,365,87"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="bitrl::dynamics::DiffDriveDynamics" name="bitrl::dynamics::DiffDriveDynamics">
+<area shape="rect" id="Node000001" title="DiffDriveDynamics class. Describes the motion dynamics of a differential drive system...." alt="" coords="504,20,689,60"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1dynamics_1_1MotionModelDynamicsBase.html" title=" " alt="" coords="203,5,456,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="470,37,504,37,504,43,470,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,27,155,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,37,202,37,202,43,168,43"/>
+</map>

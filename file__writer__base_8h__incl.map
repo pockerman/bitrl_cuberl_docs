@@ -1,0 +1,17 @@
+<map id="libs/bitrl/src/bitrl/utils/io/file_writer_base.h" name="libs/bitrl/src/bitrl/utils/io/file_writer_base.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="112,5,251,60"/>
+<area shape="rect" id="Node000002" href="$file__formats_8h.html" title=" " alt="" coords="23,196,143,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,62,126,84,108,109,94,146,87,183,82,182,89,145,103,107,122,80,145,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="53,284,112,309"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="137,62,103,87,68,118,36,155,13,197,8,216,13,235,29,257,51,275,47,279,25,261,8,237,3,216,8,195,32,152,64,114,100,82,134,58"/>
+<area shape="rect" id="Node000004" href="$file__handler__base_8h.html" title=" " alt="" coords="117,108,245,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,60,184,94,179,94,179,60"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="217,203,391,229"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="215,58,238,81,260,107,283,149,299,189,294,191,278,151,255,109,234,84,212,62"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="321,115,394,141"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="232,58,325,107,323,111,230,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,236,85,270,80,270,80,236"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="161,150,116,189,113,185,158,146"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="183,149,176,191,168,215,157,237,138,260,116,278,113,274,134,256,152,235,163,213,171,190,178,148"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="210,146,278,193,275,198,207,150"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="libs/bitrl/src/bitrl/sensors/messages/odometry.cpp" name="libs/bitrl/src/bitrl/sensors/messages/odometry.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="371,5,609,45"/>
+<area shape="rect" id="Node000002" href="$odometry_8h.html" title=" " alt="" coords="367,101,461,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="475,47,435,92,431,88,471,44"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="486,93,649,133"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="509,44,543,81,539,85,505,47"/>
+<area shape="rect" id="Node000003" href="$bitrl__types_8h.html" title=" " alt="" coords="225,181,358,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="397,128,322,176,319,172,394,124"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="403,255,462,280"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="418,126,432,241,427,241,413,126"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="451,181,526,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="427,124,470,170,466,173,423,128"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,255,97,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="254,209,104,253,103,248,252,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="121,255,192,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="271,209,192,250,190,246,268,204"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="216,255,292,280"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="288,208,269,244,264,241,283,206"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="315,204,399,246,396,251,313,209"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="316,255,379,280"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="303,205,332,242,328,245,298,209"/>
+</map>

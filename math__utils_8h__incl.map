@@ -1,0 +1,22 @@
+<map id="libs/bitrl/src/bitrl/utils/maths/math_utils.h" name="libs/bitrl/src/bitrl/utils/maths/math_utils.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="401,5,585,45"/>
+<area shape="rect" id="Node000002" href="$bitrl__types_8h.html" title=" " alt="" coords="223,93,357,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,48,334,91,332,86,443,43"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="400,167,463,192"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="474,47,455,69,440,94,433,124,432,153,427,153,428,123,436,92,451,66,470,44"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="450,93,535,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="495,46,495,79,490,79,490,46"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="559,93,629,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="519,43,569,82,566,87,516,48"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="653,93,716,119"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="540,43,645,86,643,91,538,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,97,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="252,121,104,165,102,160,251,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="121,167,192,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,121,192,162,189,158,267,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="216,167,292,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="286,120,268,156,264,153,282,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,167,375,192"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="301,117,331,154,326,157,297,121"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="314,116,397,158,395,163,312,121"/>
+</map>

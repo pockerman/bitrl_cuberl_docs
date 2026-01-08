@@ -1,0 +1,5 @@
+<map id="bitrl::utils::geom::GenericLine&lt; dim &gt;" name="bitrl::utils::geom::GenericLine&lt; dim &gt;">
+<area shape="rect" id="Node000001" title="class GenericLine. Represents a generic line with vertex VertexType The equation of a linein l=Ax + B..." alt="" coords="25,5,188,45"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1utils_1_1trajectory_1_1LineSegmentLink.html" title="class LineSegmentLink. Represents a straight line link between two waypoints." alt="" coords="5,93,208,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,59,109,93,104,93,104,59"/>
+</map>

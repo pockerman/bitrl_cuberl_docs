@@ -1,0 +1,7 @@
+<map id="bitrl::utils::geom::FaceElement&lt; spacedim, 0 &gt;" name="bitrl::utils::geom::FaceElement&lt; spacedim, 0 &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,93,318,133"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1utils_1_1geom_1_1GeomPoint.html" title="A class that describes a point with spacedim spatial dimension space." alt="" coords="5,5,216,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,53,187,91,184,95,141,57"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1utils_1_1geom_1_1MeshEntity.html" title="Helper class that wraps non template dependent parameters and common to every mesh entity." alt="" coords="239,5,369,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="274,56,230,95,226,91,271,52"/>
+</map>

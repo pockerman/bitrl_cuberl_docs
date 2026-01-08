@@ -1,0 +1,11 @@
+<map id="bitrl::envs::gymnasium::CliffWorld" name="bitrl::envs::gymnasium::CliffWorld">
+<area shape="rect" id="Node000001" title="The CliffWorld class." alt="" coords="41,372,213,412"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html" title=" " alt="" coords="21,269,233,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,338,129,372,124,372,124,338"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1envs_1_1gymnasium_1_1GymnasiumEnvBase.html" title="Base class for all Gymnasium environment wrappers." alt="" coords="5,167,248,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,235,129,269,124,269,124,235"/>
+<area shape="rect" id="Node000004" href="$classbitrl_1_1envs_1_1EnvBase.html" title="Base class interface for Reinforcement Learning environments." alt="" coords="16,79,237,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="129,132,129,167,124,167,124,132"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="81,5,172,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="129,44,129,79,124,79,124,44"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="libs/bitrl/src/bitrl/dynamics/dynamics_matrix_descriptor.cpp" name="libs/bitrl/src/bitrl/dynamics/dynamics_matrix_descriptor.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="389,5,596,60"/>
+<area shape="rect" id="Node000002" href="$dynamics__matrix__descriptor_8h.html" title=" " alt="" coords="323,108,505,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,62,441,99,437,96,468,59"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="529,115,616,141"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="517,59,556,103,552,106,513,62"/>
+<area shape="rect" id="Node000003" href="$bitrl__types_8h.html" title=" " alt="" coords="225,196,358,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,150,322,191,320,186,383,146"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="403,269,462,295"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="419,148,432,255,427,256,414,149"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="451,196,502,221"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="431,147,461,183,457,187,427,150"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,269,97,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="254,224,104,268,103,263,252,219"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="121,269,192,295"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="271,224,192,265,190,260,268,219"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="216,269,292,295"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="288,223,269,259,264,256,283,220"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="315,219,399,261,396,265,313,224"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="316,269,379,295"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="303,220,332,257,328,260,298,223"/>
+</map>

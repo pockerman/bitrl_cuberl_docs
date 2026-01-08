@@ -1,0 +1,19 @@
+<map id="libs/bitrl/src/bitrl/utils/iterative_algorithm_result.h" name="libs/bitrl/src/bitrl/utils/iterative_algorithm_result.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="284,5,467,60"/>
+<area shape="rect" id="Node000002" href="$bitrl__types_8h.html" title=" " alt="" coords="179,108,313,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="337,62,276,103,273,98,334,58"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="300,181,376,207"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="372,61,346,169,341,168,367,60"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="400,181,463,207"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="387,59,425,168,420,169,382,61"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="438,108,505,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="406,58,450,97,446,101,403,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,97,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,136,97,179,95,174,214,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="121,181,192,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="233,135,184,175,180,170,230,131"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="262,131,314,171,311,175,259,135"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="217,181,275,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="249,134,249,168,243,168,243,134"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="277,131,389,174,388,179,275,136"/>
+</map>

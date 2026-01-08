@@ -1,0 +1,11 @@
+<map id="bitrl::dynamics::BicycleVehicleModelDynamics" name="bitrl::dynamics::BicycleVehicleModelDynamics">
+<area shape="rect" id="Node000001" title="The BicycleVehicleModelDynamics class. Implements the bicycle vehicle model dynamics...." alt="" coords="712,47,887,87"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1dynamics_1_1MotionModelDynamicsBase.html" title=" " alt="" coords="409,33,663,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="676,65,712,65,712,70,676,70"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="42,5,191,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,24,386,45,410,48,409,53,385,50,205,30"/>
+<area shape="rect" id="Node000004" href="$classbitrl_1_1dynamics_1_1SysState.html" title=" " alt="" coords="5,55,228,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="242,65,409,65,409,70,242,70"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1dynamics_1_1DynamicsMatrixDescriptor.html" title="The DynamicsMatrixDescriptor class. Helper class to model the matrix representon of dynamical systems..." alt="" coords="21,105,213,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="226,107,409,82,410,87,227,112"/>
+</map>

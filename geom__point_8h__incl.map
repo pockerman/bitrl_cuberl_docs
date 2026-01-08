@@ -1,0 +1,24 @@
+<map id="libs/bitrl/src/bitrl/utils/geometry/geom_point.h" name="libs/bitrl/src/bitrl/utils/geometry/geom_point.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="317,5,479,60"/>
+<area shape="rect" id="Node000002" href="$bitrl__types_8h.html" title=" " alt="" coords="177,108,310,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="352,62,277,104,275,99,349,58"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,181,81,207"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="317,56,242,79,166,110,113,142,69,175,66,170,110,138,163,106,240,74,316,51"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,181,375,207"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="392,61,357,169,352,167,387,59"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="400,181,463,207"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="406,60,429,167,423,168,401,61"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="435,108,521,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="424,58,460,96,456,99,420,62"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="545,108,601,133"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="453,58,538,100,536,104,450,62"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="625,108,688,133"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="478,58,613,102,612,107,476,63"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="200,181,292,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,134,248,168,242,168,241,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="105,181,176,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="228,136,170,175,167,171,225,131"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="212,136,90,179,88,174,210,131"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="261,131,319,171,316,175,258,136"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="274,131,389,174,387,179,273,136"/>
+</map>

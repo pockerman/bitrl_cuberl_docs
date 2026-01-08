@@ -1,0 +1,28 @@
+<map id="libs/bitrl/src/bitrl/utils/maths/statistics/distributions/bernoulli_dist.cpp" name="libs/bitrl/src/bitrl/utils/maths/statistics/distributions/bernoulli_dist.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="437,5,605,75"/>
+<area shape="rect" id="Node000002" href="$bernoulli__dist_8h.html" title=" " alt="" coords="331,123,542,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,77,464,113,459,110,490,73"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="566,130,646,155"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="552,73,589,118,585,121,548,77"/>
+<area shape="rect" id="Node000003" href="$bitrl__consts_8h.html" title=" " alt="" coords="314,211,453,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="426,164,401,200,397,197,422,161"/>
+<area shape="rect" id="Node000004" href="$bitrl__types_8h.html" title=" " alt="" coords="175,284,309,309"/>
+<area shape="poly" id="edge11_Node000002_Node000004" title=" " alt="" coords="386,165,344,185,304,213,277,242,257,273,252,270,273,239,300,209,341,181,383,160"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="435,357,497,383"/>
+<area shape="poly" id="edge13_Node000002_Node000009" title=" " alt="" coords="449,162,467,210,478,259,478,310,473,344,468,343,473,309,473,260,462,211,444,164"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="538,211,610,236"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="471,160,543,201,540,206,468,165"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="362,238,278,280,276,275,359,234"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="317,357,375,383"/>
+<area shape="poly" id="edge10_Node000003_Node000008" title=" " alt="" coords="383,237,355,345,350,343,378,236"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="384,284,463,309"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="392,235,412,271,408,273,388,238"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,357,97,383"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="212,312,96,355,94,350,210,307"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="121,357,192,383"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="230,311,183,351,179,346,227,307"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="216,357,292,383"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="247,309,252,343,247,344,241,310"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="260,307,319,347,316,351,257,312"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="279,307,422,352,421,357,277,312"/>
+</map>

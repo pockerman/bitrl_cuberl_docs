@@ -1,0 +1,11 @@
+<map id="bitrl::envs::gymnasium::ToyTextEnvBase&lt; TimeStepType, state_end, action_end &gt;" name="bitrl::envs::gymnasium::ToyTextEnvBase&lt; TimeStepType, state_end, action_end &gt;">
+<area shape="rect" id="Node000001" title="ToyTextEnvBase class. Base class for toy environments from Gymnasium. These environments have a discr..." alt="" coords="787,45,1033,99"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1envs_1_1gymnasium_1_1GymnasiumEnvBase.html" title=" " alt="" coords="495,37,737,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="751,69,786,69,786,75,751,75"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1envs_1_1EnvBase.html" title="Base class interface for Reinforcement Learning environments." alt="" coords="145,5,367,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,39,495,54,494,59,380,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,13,96,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,23,145,23,145,28,110,28"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1network_1_1RESTRLEnvClient.html" title="Utility class to facilitate HTTP requests between the environments REST API and C++ drivers." alt="" coords="161,69,351,109"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="365,81,494,75,494,81,365,87"/>
+</map>

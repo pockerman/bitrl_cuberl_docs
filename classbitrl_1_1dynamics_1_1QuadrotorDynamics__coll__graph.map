@@ -1,0 +1,11 @@
+<map id="bitrl::dynamics::QuadrotorDynamics" name="bitrl::dynamics::QuadrotorDynamics">
+<area shape="rect" id="Node000001" title="The QuadrotorDynamics class. Implements quadrotor dynamics The implementation of this class follows t..." alt="" coords="671,55,863,95"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1dynamics_1_1MotionModelDynamicsBase.html" title=" " alt="" coords="379,41,621,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="635,73,671,73,671,78,635,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="27,5,176,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,28,379,55,378,61,189,33"/>
+<area shape="rect" id="Node000004" href="$classbitrl_1_1dynamics_1_1SysState.html" title=" " alt="" coords="9,55,193,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="207,73,379,73,379,78,207,78"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1dynamics_1_1DynamicsMatrixDescriptor.html" title="The DynamicsMatrixDescriptor class. Helper class to model the matrix representon of dynamical systems..." alt="" coords="5,119,197,159"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="211,119,378,92,379,97,212,124"/>
+</map>

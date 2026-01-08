@@ -1,0 +1,13 @@
+<map id="libs/bitrl/src/bitrl/utils/maths/math_utils.h" name="libs/bitrl/src/bitrl/utils/maths/math_utils.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="337,5,521,45"/>
+<area shape="rect" id="Node000002" href="$diff__drive__dynamics_8cpp.html" title=" " alt="" coords="5,93,160,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,51,173,96,161,99,159,94,171,91,341,46"/>
+<area shape="rect" id="Node000003" href="$quadrotor__dynamics_8cpp.html" title=" " alt="" coords="184,101,437,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="396,56,336,103,333,99,393,52"/>
+<area shape="rect" id="Node000004" href="$generic__line_8h.html" title=" " alt="" coords="461,93,635,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="466,52,516,91,513,95,462,56"/>
+<area shape="rect" id="Node000006" href="$beta__dist_8h.html" title=" " alt="" coords="659,93,842,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="508,47,661,91,659,96,507,52"/>
+<area shape="rect" id="Node000005" href="$line__segment__link_8h.html" title=" " alt="" coords="473,196,623,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="551,162,551,196,545,196,545,162"/>
+</map>

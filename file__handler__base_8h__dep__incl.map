@@ -1,0 +1,23 @@
+<map id="libs/bitrl/src/bitrl/utils/io/file_handler_base.h" name="libs/bitrl/src/bitrl/utils/io/file_handler_base.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="415,5,565,60"/>
+<area shape="rect" id="Node000002" href="$file__reader__base_8h.html" title=" " alt="" coords="315,108,457,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="455,72,415,110,411,106,451,68"/>
+<area shape="rect" id="Node000008" href="$file__writer__base_8h.html" title=" " alt="" coords="626,108,765,163"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="557,63,643,106,641,110,554,68"/>
+<area shape="rect" id="Node000003" href="$csv__file__reader_8h.html" title=" " alt="" coords="13,218,196,258"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,169,158,220,156,215,301,164"/>
+<area shape="rect" id="Node000005" href="$file__reader__base_8cpp.html" title=" " alt="" coords="220,211,363,265"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="354,174,318,212,314,209,350,171"/>
+<area shape="rect" id="Node000006" href="$json__file__reader_8h.html" title=" " alt="" coords="387,218,575,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="422,171,464,216,461,219,418,175"/>
+<area shape="rect" id="Node000004" href="$csv__file__reader_8cpp.html" title=" " alt="" coords="5,313,204,353"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,272,107,313,102,313,102,272"/>
+<area shape="rect" id="Node000007" href="$json__file__reader_8cpp.html" title=" " alt="" coords="375,313,578,353"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="482,272,480,313,475,313,477,272"/>
+<area shape="rect" id="Node000009" href="$csv__file__writer_8h.html" title=" " alt="" coords="606,218,785,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="698,177,698,218,693,218,693,177"/>
+<area shape="rect" id="Node000011" href="$file__writer__base_8cpp.html" title=" " alt="" coords="809,211,947,265"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="756,167,831,208,829,213,754,172"/>
+<area shape="rect" id="Node000010" href="$csv__file__writer_8cpp.html" title=" " alt="" coords="602,313,797,353"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="699,272,701,313,696,313,694,272"/>
+</map>

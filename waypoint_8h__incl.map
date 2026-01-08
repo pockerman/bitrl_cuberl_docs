@@ -1,0 +1,33 @@
+<map id="libs/bitrl/src/bitrl/utils/trajectory/waypoint.h" name="libs/bitrl/src/bitrl/utils/trajectory/waypoint.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="178,5,375,45"/>
+<area shape="rect" id="Node000002" href="$bitrl__consts_8h.html" title=" " alt="" coords="77,101,215,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,48,177,95,174,91,246,43"/>
+<area shape="rect" id="Node000003" href="$bitrl__types_8h.html" title=" " alt="" coords="210,181,343,207"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="279,46,279,168,274,168,274,46"/>
+<area shape="rect" id="Node000010" href="$geom__point_8h.html" title=" " alt="" coords="383,93,530,133"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="317,43,406,85,404,90,315,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,124,247,172,244,176,164,128"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="143,255,202,280"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="149,126,151,162,157,206,166,241,161,242,151,207,145,162,144,126"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,181,84,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="133,128,72,175,69,171,129,124"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="328,255,420,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,205,348,244,345,248,291,209"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="233,255,304,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="278,207,274,241,269,241,273,207"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="624,255,700,280"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="339,204,611,254,610,259,338,209"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="261,209,203,249,200,244,258,204"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="491,255,553,280"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="317,204,478,251,477,256,315,209"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="415,136,317,178,315,173,412,131"/>
+<area shape="poly" id="edge16_Node000010_Node000006" title=" " alt="" coords="531,124,623,146,661,162,685,180,692,195,692,212,680,243,675,242,687,211,687,196,681,183,659,166,621,151,530,129"/>
+<area shape="poly" id="edge17_Node000010_Node000007" title=" " alt="" coords="384,118,337,123,288,134,241,154,200,183,190,196,183,211,176,241,171,240,178,209,185,193,196,179,238,149,287,129,336,118,383,112"/>
+<area shape="poly" id="edge18_Node000010_Node000008" title=" " alt="" coords="497,131,525,152,547,180,551,196,550,213,539,244,534,242,545,212,546,197,542,183,521,156,494,136"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="367,181,453,207"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="448,135,426,171,422,168,443,132"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="477,181,533,207"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="471,132,493,168,488,171,466,135"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="608,181,671,207"/>
+<area shape="poly" id="edge15_Node000010_Node000013" title=" " alt="" coords="501,131,601,173,599,178,499,136"/>
+</map>

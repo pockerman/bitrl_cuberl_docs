@@ -1,0 +1,15 @@
+<map id="bitrl::utils::geom::MeshEntity" name="bitrl::utils::geom::MeshEntity">
+<area shape="rect" id="Node000001" title="Helper class that wraps non template dependent parameters and common to every mesh entity." alt="" coords="5,101,135,141"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1utils_1_1geom_1_1Element.html" title=" " alt="" coords="229,5,359,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,92,182,55,228,39,230,44,184,60,115,96"/>
+<area shape="rect" id="Node000004" href="$classbitrl_1_1utils_1_1geom_1_1Element.html" title=" " alt="" coords="229,69,359,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,108,229,96,230,101,149,113"/>
+<area shape="rect" id="Node000006" href="$classbitrl_1_1utils_1_1geom_1_1Element.html" title="Wraps the notion of an element." alt="" coords="225,133,363,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="149,130,225,141,224,146,148,135"/>
+<area shape="rect" id="Node000007" href="$classbitrl_1_1utils_1_1geom_1_1FaceElement_3_01spacedim_00_010_01_4.html" title=" " alt="" coords="183,197,405,237"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="115,146,184,183,216,195,214,200,182,188,112,151"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1utils_1_1geom_1_1EdgeElem_3_011_01_4.html" title=" " alt="" coords="453,5,587,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,23,453,23,453,28,372,28"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1utils_1_1geom_1_1Quad_3_012_01_4.html" title=" " alt="" coords="455,69,585,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="372,87,455,87,455,92,372,92"/>
+</map>

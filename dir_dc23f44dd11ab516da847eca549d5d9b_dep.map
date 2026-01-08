@@ -1,0 +1,7 @@
+<map id="libs/bitrl/src/bitrl/envs/connect2" name="libs/bitrl/src/bitrl/envs/connect2">
+<area shape="rect" id="node1" href="dir_dc23f44dd11ab516da847eca549d5d9b.html" title="connect2" alt="" coords="27,52,109,77"/>
+<area shape="rect" id="node2" href="dir_c65df86a97cabac3be6d1cda2024accf.html" title="utils" alt="" coords="43,125,93,151"/>
+<area shape="poly" id="edge1" href="dir_000006_000032.html" alt="" coords="71,78,71,112,65,112,65,78"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000006_000032.html" title="1" alt="" coords="72,100,81,114"/>
+<area shape="rect" id="clust1" href="dir_fd3dda804dcf570322dab2a64f109efb.html" title="envs" alt="" coords="16,16,120,88"/>
+</map>

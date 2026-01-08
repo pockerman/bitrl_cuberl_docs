@@ -1,0 +1,22 @@
+<map id="libs/bitrl/src/bitrl/boards/arduino/arduino_connector_base.h" name="libs/bitrl/src/bitrl/boards/arduino/arduino_connector_base.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="273,5,449,60"/>
+<area shape="rect" id="Node000002" href="$bitrl__consts_8h.html" title=" " alt="" coords="291,108,430,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="363,60,363,94,358,94,358,60"/>
+<area shape="rect" id="Node000003" href="$bitrl__types_8h.html" title=" " alt="" coords="187,181,321,207"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="326,62,302,84,282,109,268,139,260,168,255,167,263,137,277,107,298,80,322,58"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="403,255,462,280"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="398,58,424,81,451,110,474,143,490,181,493,194,490,208,477,229,461,247,457,244,473,226,485,206,487,194,485,182,469,146,446,113,420,85,395,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,136,284,176,281,171,342,131"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="365,133,372,166,387,205,414,243,409,246,382,208,367,168,360,134"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="396,181,475,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="374,131,415,170,411,174,371,135"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,255,97,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,209,98,253,96,248,221,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="121,255,192,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="240,209,185,248,182,244,237,205"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="216,255,292,280"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="257,207,257,241,251,241,251,207"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="284,204,392,247,390,252,282,209"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="316,255,379,280"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="271,205,323,244,320,248,267,209"/>
+</map>

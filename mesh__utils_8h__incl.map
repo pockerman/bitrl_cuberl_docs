@@ -1,0 +1,17 @@
+<map id="libs/bitrl/src/bitrl/utils/geometry/mesh/utils/mesh_utils.h" name="libs/bitrl/src/bitrl/utils/geometry/mesh/utils/mesh_utils.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="627,5,789,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,195,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="628,48,209,110,208,105,627,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="219,108,373,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="628,55,387,109,386,104,627,50"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="398,108,594,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="649,63,552,105,550,100,647,58"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="619,108,797,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="711,60,711,94,705,94,705,60"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="821,115,880,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="750,58,823,106,820,110,747,62"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="905,115,959,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="776,58,893,106,897,107,894,112,891,110,774,62"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="983,115,1046,141"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="790,51,879,75,973,105,979,108,977,113,971,111,877,80,789,56"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="libs/bitrl/src/bitrl/boards/arduino/arduino_connector_base.h" name="libs/bitrl/src/bitrl/boards/arduino/arduino_connector_base.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,5,293,60"/>
+<area shape="rect" id="Node000002" href="$arduino__connector__usb__base_8h.html" title=" " alt="" coords="14,108,190,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,72,131,110,127,106,166,68"/>
+<area shape="rect" id="Node000004" href="$arduino__connector__wifi__base_8h.html" title=" " alt="" coords="219,108,395,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,68,282,106,279,110,239,72"/>
+<area shape="rect" id="Node000003" href="$arduino__connector__usb__base_8cpp.html" title=" " alt="" coords="5,211,193,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,176,103,211,97,210,98,176"/>
+<area shape="rect" id="Node000005" href="$arduino__connector__wifi__base_8cpp.html" title=" " alt="" coords="217,211,405,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="312,176,313,210,308,211,306,177"/>
+</map>

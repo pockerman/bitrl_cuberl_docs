@@ -1,0 +1,21 @@
+<map id="libs/bitrl/src/bitrl/utils/geometry/mesh/element_builder.h" name="libs/bitrl/src/bitrl/utils/geometry/mesh/element_builder.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="123,5,285,60"/>
+<area shape="rect" id="Node000002" href="$element__traits_8h.html" title=" " alt="" coords="20,108,193,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,62,138,101,134,97,175,58"/>
+<area shape="rect" id="Node000004" href="$element__type_8h.html" title=" " alt="" coords="217,108,385,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="233,58,274,97,270,101,230,62"/>
+<area shape="rect" id="Node000003" href="$edge__face__selector_8h.html" title=" " alt="" coords="5,196,208,236"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,148,109,182,104,182,104,148"/>
+<area shape="rect" id="Node000005" href="$bitrl__types_8h.html" title=" " alt="" coords="235,203,368,229"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="304,148,304,189,299,189,299,148"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="53,284,145,309"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="273,231,142,282,140,277,271,226"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="169,284,239,309"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="289,231,231,277,227,273,285,227"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="263,284,339,309"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="304,229,304,270,299,270,299,229"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="364,284,423,309"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="317,227,371,273,368,277,313,231"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="447,284,510,309"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="328,226,442,276,439,281,326,231"/>
+</map>

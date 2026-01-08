@@ -1,0 +1,37 @@
+<map id="bitrl::envs::gymnasium::GymnasiumEnvBase&lt; TimeStepType, SpaceType &gt;" name="bitrl::envs::gymnasium::GymnasiumEnvBase&lt; TimeStepType, SpaceType &gt;">
+<area shape="rect" id="Node000001" title="Base class for all Gymnasium environment wrappers." alt="" coords="413,339,656,393"/>
+<area shape="rect" id="Node000004" href="$classbitrl_1_1envs_1_1gymnasium_1_1GymnasiumVecEnvBase.html" title=" " alt="" coords="750,5,946,89"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="549,325,573,274,606,214,650,153,702,100,749,72,751,77,706,104,654,157,611,217,578,277,554,327"/>
+<area shape="rect" id="Node000006" href="$classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html" title=" " alt="" coords="742,114,954,183"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="563,326,623,258,661,223,703,193,741,174,743,179,705,198,664,228,626,262,567,329"/>
+<area shape="rect" id="Node000008" href="$classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html" title=" " alt="" coords="742,208,954,263"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="591,329,644,300,703,273,741,259,743,264,705,278,647,305,593,334"/>
+<area shape="rect" id="Node000010" href="$classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html" title=" " alt="" coords="742,287,954,357"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="669,344,741,334,742,340,670,350"/>
+<area shape="rect" id="Node000012" href="$classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html" title=" " alt="" coords="742,381,954,436"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="670,382,742,392,741,397,669,387"/>
+<area shape="rect" id="Node000014" href="$classbitrl_1_1envs_1_1gymnasium_1_1lunar__lander__detail_1_1__LunarLanderEnv.html" title=" " alt="" coords="704,461,992,559"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="604,397,705,446,732,458,729,463,703,451,601,402"/>
+<area shape="rect" id="Node000016" href="$classbitrl_1_1envs_1_1gymnasium_1_1lunar__lander__detail_1_1__LunarLanderEnv.html" title=" " alt="" coords="713,583,983,682"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="562,403,621,486,661,530,706,569,723,581,720,586,702,573,657,534,617,489,557,406"/>
+<area shape="rect" id="Node000018" href="$classbitrl_1_1envs_1_1gymnasium_1_1lunar__lander__detail_1_1__LunarLanderEnv.html" title=" " alt="" coords="722,706,974,775"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="548,406,568,469,600,546,646,624,674,660,706,692,724,705,720,709,702,696,670,664,641,627,595,548,563,470,543,407"/>
+<area shape="rect" id="Node000002" href="$classbitrl_1_1envs_1_1EnvBase.html" title="Base class interface for Reinforcement Learning environments." alt="" coords="144,346,365,386"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="379,363,413,363,413,369,379,369"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,353,96,379"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,363,144,363,144,369,110,369"/>
+<area shape="rect" id="Node000005" href="$classbitrl_1_1envs_1_1gymnasium_1_1AcrobotV.html" title="The CartPole class Interface for CartPole environment." alt="" coords="1057,27,1229,67"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="960,45,1057,45,1057,50,960,50"/>
+<area shape="rect" id="Node000007" href="$classbitrl_1_1envs_1_1gymnasium_1_1BlackJack.html" title=" " alt="" coords="1057,129,1229,169"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="968,146,1057,146,1057,151,968,151"/>
+<area shape="rect" id="Node000009" href="$classbitrl_1_1envs_1_1gymnasium_1_1CliffWorld.html" title="The CliffWorld class." alt="" coords="1057,215,1229,255"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="968,233,1057,233,1057,238,968,238"/>
+<area shape="rect" id="Node000011" href="$classbitrl_1_1envs_1_1gymnasium_1_1FrozenLake.html" title=" " alt="" coords="1047,302,1240,342"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="968,319,1047,319,1047,325,968,325"/>
+<area shape="rect" id="Node000013" href="$classbitrl_1_1envs_1_1gymnasium_1_1Taxi.html" title="The Taxi class." alt="" coords="1057,389,1229,429"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="968,406,1057,406,1057,411,968,411"/>
+<area shape="rect" id="Node000015" href="$classbitrl_1_1envs_1_1gymnasium_1_1LunarLanderContinuousEnv.html" title=" " alt="" coords="1040,490,1247,530"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="1006,507,1040,507,1040,513,1006,513"/>
+<area shape="rect" id="Node000017" href="$classbitrl_1_1envs_1_1gymnasium_1_1LunarLanderDiscreteEnv.html" title="LunarLanderDiscreteEnv environment with discrete action space." alt="" coords="1049,613,1237,653"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="997,630,1049,630,1049,635,997,635"/>
+</map>
