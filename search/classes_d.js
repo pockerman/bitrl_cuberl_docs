@@ -1,9 +1,26 @@
 var searchData=
 [
-  ['node_0',['Node',['../classbitrl_1_1utils_1_1geom_1_1Node.html',1,'bitrl::utils::geom']]],
-  ['node_5felem_5ftype_1',['node_elem_type',['../structbitrl_1_1utils_1_1geom_1_1node__elem__type.html',1,'bitrl::utils::geom']]],
-  ['normaldist_2',['NormalDist',['../classbitrl_1_1utils_1_1maths_1_1stats_1_1NormalDist.html',1,'bitrl::utils::maths::stats']]],
-  ['not_5fequal_3',['not_equal',['../structbitrl_1_1envs_1_1grid__world_1_1detail_1_1not__equal.html',1,'bitrl::envs::grid_world::detail']]],
-  ['notnull_4',['NotNull',['../structbitrl_1_1NotNull.html',1,'bitrl']]],
-  ['null_5',['Null',['../structbitrl_1_1Null.html',1,'bitrl']]]
+  ['make_5fvoid_0',['make_void',['../structdetail_1_1make__void.html',1,'detail']]],
+  ['map_1',['map',['../structbetter__enums_1_1map.html',1,'better_enums']]],
+  ['map_5fcompare_2',['map_compare',['../structbetter__enums_1_1map__compare.html',1,'better_enums']]],
+  ['map_5fcompare_3c_20const_20char_20_2a_20_3e_3',['map_compare&lt; const char * &gt;',['../structbetter__enums_1_1map__compare_3_01const_01char_01_5_01_4.html',1,'better_enums']]],
+  ['map_5fcompare_3c_20const_20wchar_5ft_20_2a_20_3e_4',['map_compare&lt; const wchar_t * &gt;',['../structbetter__enums_1_1map__compare_3_01const_01wchar__t_01_5_01_4.html',1,'better_enums']]],
+  ['maxtabularpolicy_5',['MaxTabularPolicy',['../classcuberl_1_1rl_1_1policies_1_1MaxTabularPolicy.html',1,'cuberl::rl::policies']]],
+  ['maxtabularpolicybuilder_6',['MaxTabularPolicyBuilder',['../structcuberl_1_1rl_1_1policies_1_1MaxTabularPolicyBuilder.html',1,'cuberl::rl::policies']]],
+  ['maxtabularsoftmaxpolicy_7',['MaxTabularSoftmaxPolicy',['../classcuberl_1_1rl_1_1policies_1_1MaxTabularSoftmaxPolicy.html',1,'cuberl::rl::policies']]],
+  ['mctreesearchconfig_8',['MCTreeSearchConfig',['../structcubeai_1_1rl_1_1algos_1_1mc_1_1MCTreeSearchConfig.html',1,'cubeai::rl::algos::mc']]],
+  ['mctsnodebase_9',['MCTSNodeBase',['../classcubeai_1_1rl_1_1algos_1_1mc_1_1MCTSNodeBase.html',1,'cubeai::rl::algos::mc']]],
+  ['mctssolver_10',['MCTSSolver',['../classcubeai_1_1rl_1_1algos_1_1mc_1_1MCTSSolver.html',1,'cubeai::rl::algos::mc']]],
+  ['mesh_11',['mesh',['../classkernel_1_1numerics_1_1Mesh.html',1,'kernel::numerics::Mesh&lt; dim &gt;'],['../classbitrl_1_1utils_1_1geom_1_1Mesh.html',1,'bitrl::utils::geom::Mesh&lt; spacedim &gt;']]],
+  ['meshconnectivity_12',['MeshConnectivity',['../classbitrl_1_1utils_1_1geom_1_1MeshConnectivity.html',1,'bitrl::utils::geom']]],
+  ['meshentity_13',['MeshEntity',['../classbitrl_1_1utils_1_1geom_1_1MeshEntity.html',1,'bitrl::utils::geom']]],
+  ['meshtopology_14',['MeshTopology',['../classbitrl_1_1utils_1_1geom_1_1MeshTopology.html',1,'bitrl::utils::geom']]],
+  ['messagebase_15',['MessageBase',['../structbitrl_1_1sensors_1_1MessageBase.html',1,'bitrl::sensors']]],
+  ['motionmodeldynamicsbase_16',['MotionModelDynamicsBase',['../classbitrl_1_1dynamics_1_1MotionModelDynamicsBase.html',1,'bitrl::dynamics']]],
+  ['motionmodeldynamicsbase_3c_20sysstate_3c_2012_20_3e_2c_20dynamicsmatrixdescriptor_2c_20realvec_20_3e_17',['MotionModelDynamicsBase&lt; SysState&lt; 12 &gt;, DynamicsMatrixDescriptor, RealVec &gt;',['../classbitrl_1_1dynamics_1_1MotionModelDynamicsBase.html',1,'bitrl::dynamics']]],
+  ['motionmodeldynamicsbase_3c_20sysstate_3c_203_20_3e_2c_20dynamicsmatrixdescriptor_2c_20std_3a_3amap_3c_20std_3a_3astring_2c_20std_3a_3aany_20_3e_20_3e_18',['MotionModelDynamicsBase&lt; SysState&lt; 3 &gt;, DynamicsMatrixDescriptor, std::map&lt; std::string, std::any &gt; &gt;',['../classbitrl_1_1dynamics_1_1MotionModelDynamicsBase.html',1,'bitrl::dynamics']]],
+  ['mountaincar_19',['MountainCar',['../classbitrl_1_1envs_1_1gymnasium_1_1MountainCar.html',1,'bitrl::envs::gymnasium']]],
+  ['mqttsubscriber_20',['MqttSubscriber',['../classbitrl_1_1network_1_1MqttSubscriber.html',1,'bitrl::network']]],
+  ['multiarmedbandits_21',['MultiArmedBandits',['../classbitrl_1_1envs_1_1bandits_1_1MultiArmedBandits.html',1,'bitrl::envs::bandits']]],
+  ['multiarmedbanditsspace_22',['MultiArmedBanditsSpace',['../structbitrl_1_1envs_1_1bandits_1_1MultiArmedBanditsSpace.html',1,'bitrl::envs::bandits']]]
 ];

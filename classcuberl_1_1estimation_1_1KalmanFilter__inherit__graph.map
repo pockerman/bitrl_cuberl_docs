@@ -1,0 +1,5 @@
+<map id="cuberl::estimation::KalmanFilter&lt; MotionModelType, ObservationModelType &gt;" name="cuberl::estimation::KalmanFilter&lt; MotionModelType, ObservationModelType &gt;">
+<area shape="rect" id="Node000001" title="Linear Kalman Filter implementation. See: An Introduction to the Kalman Filter, TR 95&#45;041 by Greg Wel..." alt="" coords="5,79,229,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="43,5,192,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,44,120,79,115,79,115,44"/>
+</map>

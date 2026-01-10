@@ -11,6 +11,8 @@ var searchData=
   ['file_5fwriter_5fbase_2ecpp_8',['file_writer_base.cpp',['../file__writer__base_8cpp.html',1,'']]],
   ['file_5fwriter_5fbase_2eh_9',['file_writer_base.h',['../file__writer__base_8h.html',1,'']]],
   ['filtered_5fiterator_2eh_10',['filtered_iterator.h',['../filtered__iterator_8h.html',1,'']]],
-  ['frozen_5flake_5fenv_2ecpp_11',['frozen_lake_env.cpp',['../frozen__lake__env_8cpp.html',1,'']]],
-  ['frozen_5flake_5fenv_2eh_12',['frozen_lake_env.h',['../frozen__lake__env_8h.html',1,'']]]
+  ['first_5fvisit_5fmc_2eh_11',['first_visit_mc.h',['../first__visit__mc_8h.html',1,'']]],
+  ['fixed_5fsize_5fpriority_5fqueue_2eh_12',['fixed_size_priority_queue.h',['../fixed__size__priority__queue_8h.html',1,'']]],
+  ['frozen_5flake_5fenv_2ecpp_13',['frozen_lake_env.cpp',['../frozen__lake__env_8cpp.html',1,'']]],
+  ['frozen_5flake_5fenv_2eh_14',['frozen_lake_env.h',['../frozen__lake__env_8h.html',1,'']]]
 ];

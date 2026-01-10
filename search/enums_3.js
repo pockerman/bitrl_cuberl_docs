@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sensortypeenum_0',['SensorTypeEnum',['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17',1,'bitrl::sensors']]],
-  ['sub_5ftype_1',['sub_type',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066',1,'bitrl::utils::geom::ElementType']]]
+  ['epsilondecayoption_0',['EpsilonDecayOption',['../namespacecuberl_1_1rl_1_1policies.html#a8cf3e60a8dae19acb81f9dd6ef8d445c',1,'cuberl::rl::policies']]],
+  ['error_5fhandler_5ft_1',['error_handler_t',['../namespacedetail.html#abe7cfa1fd8fa706ff4392bff9d1a8298',1,'detail']]]
 ];

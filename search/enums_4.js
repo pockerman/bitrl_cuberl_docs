@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['timesteptp_0',['TimeStepTp',['../namespacebitrl.html#a951d92c04fcc4301b396dbf4ecdcba39',1,'bitrl']]],
-  ['type_1',['type',['../structbitrl_1_1utils_1_1io_1_1FileFormats.html#a34f605d88df9d54b3c9aecd7fc7d8d1c',1,'bitrl::utils::io::FileFormats::Type'],['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603',1,'bitrl::utils::geom::ElementType::type']]]
+  ['gridworldactiontype_0',['GridWorldActionType',['../namespacebitrl_1_1envs_1_1grid__world.html#a40a325c845f1c84fa24cde939f26490b',1,'bitrl::envs::grid_world']]],
+  ['gridworldinittype_1',['GridWorldInitType',['../namespacebitrl_1_1envs_1_1grid__world.html#aaef458e69508f413265b6c0e04da225d',1,'bitrl::envs::grid_world']]]
 ];

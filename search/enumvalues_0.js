@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['camera_0',['CAMERA',['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17addf0d6b21537d984fea6544f58101fa8',1,'bitrl::sensors']]],
-  ['cpu_1',['CPU',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a2b55387dd066c5bac646ac61543d152d',1,'bitrl']]],
-  ['csv_2',['CSV',['../structbitrl_1_1utils_1_1io_1_1FileFormats.html#a34f605d88df9d54b3c9aecd7fc7d8d1cacc8d68c551c4a9a6d5313e07de4deafd',1,'bitrl::utils::io::FileFormats']]]
+  ['accepted_0',['Accepted',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a704d7112e613e9fd5a2a50068cb0e589',1,'http::Status']]],
+  ['alreadyreported_1',['AlreadyReported',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a6ca3267d727171208e33a3e6303add51',1,'http::Status']]],
+  ['array_2',['array',['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632af1f713c9e000f5d3f280adbd124df4f5',1,'detail']]]
 ];

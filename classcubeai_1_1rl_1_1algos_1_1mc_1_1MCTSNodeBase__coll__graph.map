@@ -1,0 +1,5 @@
+<map id="cubeai::rl::algos::mc::MCTSNodeBase&lt; ActionTp, StateTp &gt;" name="cubeai::rl::algos::mc::MCTSNodeBase&lt; ActionTp, StateTp &gt;">
+<area shape="rect" id="Node000001" title="Base class for Nodes in a MC tree search." alt="" coords="5,93,235,148"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="91,5,149,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,45,123,93,117,93,117,45"/>
+</map>

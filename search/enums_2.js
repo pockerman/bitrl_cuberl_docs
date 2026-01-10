@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['gridworldactiontype_0',['GridWorldActionType',['../namespacebitrl_1_1envs_1_1grid__world.html#a40a325c845f1c84fa24cde939f26490b',1,'bitrl::envs::grid_world']]],
-  ['gridworldinittype_1',['GridWorldInitType',['../namespacebitrl_1_1envs_1_1grid__world.html#aaef458e69508f413265b6c0e04da225d',1,'bitrl::envs::grid_world']]]
+  ['devicetype_0',['DeviceType',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26',1,'bitrl']]],
+  ['dynamicversion_1',['DynamicVersion',['../classbitrl_1_1dynamics_1_1DiffDriveDynamics.html#a77a50c5ffa0b024b68d3a8326a87c482',1,'bitrl::dynamics::DiffDriveDynamics']]]
 ];

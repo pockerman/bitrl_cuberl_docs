@@ -1,0 +1,33 @@
+<map id="cuberl::rl::algos::RLSolverBase&lt; EnvType &gt;" name="cuberl::rl::algos::RLSolverBase&lt; EnvType &gt;">
+<area shape="rect" id="Node000001" title="RLAlgoBase. Base class for RL algorithms." alt="" coords="203,289,397,329"/>
+<area shape="rect" id="Node000003" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1DPSolverBase.html" title=" " alt="" coords="468,91,644,145"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="322,275,374,215,407,184,444,156,467,143,469,148,447,160,411,188,378,219,326,279"/>
+<area shape="rect" id="Node000004" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1TDAlgoBase.html" title=" " alt="" coords="460,170,652,210"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="356,280,511,208,513,212,358,285"/>
+<area shape="rect" id="Node000008" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1DPSolverBase.html" title="The DPSolverBase class." alt="" coords="445,406,667,446"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="359,332,512,403,510,408,356,337"/>
+<area shape="rect" id="Node000015" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1TDAlgoBase.html" title="The TDAlgoBase class. Base class for deriving TD algorithms." alt="" coords="453,595,659,635"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="329,337,540,593,536,597,324,341"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,296,155,321"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,306,202,306,202,311,168,311"/>
+<area shape="rect" id="Node000005" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1DoubleQLearning.html" title="The class DoubleQLearning. Simple tabular implemtation of double q&#45;learning algorithm." alt="" coords="735,5,930,60"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="656,161,665,155,681,134,688,113,695,91,713,69,734,56,737,60,716,73,700,94,693,115,686,137,668,159,659,165"/>
+<area shape="rect" id="Node000006" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1ExpectedSARSA.html" title="The ExpectedSARSA class. Simple implementation of the expected SARSA algorithm." alt="" coords="729,84,936,139"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="640,164,735,136,737,141,641,169"/>
+<area shape="rect" id="Node000007" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1QLearningSolver.html" title="The QLearning class. Table based implementation of the Q&#45;learning algorithm using epsilon&#45;greedy poli..." alt="" coords="748,163,917,217"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="666,187,748,187,748,193,666,193"/>
+<area shape="rect" id="Node000009" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1IterativePolicyEvalutationSolver.html" title=" " alt="" coords="715,241,951,296"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="589,395,645,350,713,306,740,294,743,299,716,311,648,354,592,399"/>
+<area shape="rect" id="Node000010" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1PolicyImprovement.html" title=" " alt="" coords="735,320,930,375"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="640,400,735,372,737,377,641,405"/>
+<area shape="rect" id="Node000011" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1IterativePolicyEvalutationSolver.html" title="The IterativePolicyEval class." alt="" coords="721,399,945,453"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="681,423,720,423,720,429,681,429"/>
+<area shape="rect" id="Node000012" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1PolicyImprovement.html" title="The PolicyImprovement class. PolicyImprovement is not a real algorithm in the sense that it looks for..." alt="" coords="741,477,924,532"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="641,447,742,476,740,481,639,452"/>
+<area shape="rect" id="Node000013" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1PolicyIterationSolver.html" title="The policy iteration class." alt="" coords="741,556,924,611"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="591,453,647,499,716,542,742,554,740,559,713,547,644,503,588,457"/>
+<area shape="rect" id="Node000014" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1ValueIteration.html" title="ValueIteration class." alt="" coords="759,635,907,689"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="577,457,601,495,633,539,672,583,716,621,760,643,757,647,713,626,668,587,628,542,596,498,573,460"/>
+<area shape="rect" id="Node000016" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1SarsaSolver.html" title="The Sarsa class." alt="" coords="736,713,929,768"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="603,640,656,670,716,700,744,711,742,716,714,704,653,675,600,645"/>
+</map>

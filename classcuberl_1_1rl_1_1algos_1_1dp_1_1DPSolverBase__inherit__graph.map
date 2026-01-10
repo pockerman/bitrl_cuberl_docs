@@ -1,0 +1,19 @@
+<map id="cuberl::rl::algos::dp::DPSolverBase&lt; EnvType &gt;" name="cuberl::rl::algos::dp::DPSolverBase&lt; EnvType &gt;">
+<area shape="rect" id="Node000001" title="The DPSolverBase class." alt="" coords="445,210,667,250"/>
+<area shape="rect" id="Node000004" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1IterativePolicyEvalutationSolver.html" title=" " alt="" coords="715,5,951,60"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="578,198,635,133,672,99,713,69,735,58,737,62,716,74,676,103,639,137,582,201"/>
+<area shape="rect" id="Node000005" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1PolicyImprovement.html" title=" " alt="" coords="735,84,930,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="604,201,714,148,743,136,744,141,716,152,606,206"/>
+<area shape="rect" id="Node000006" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1IterativePolicyEvalutationSolver.html" title="The IterativePolicyEval class." alt="" coords="721,163,945,217"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="680,209,720,204,721,209,680,215"/>
+<area shape="rect" id="Node000007" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1PolicyImprovement.html" title="The PolicyImprovement class. PolicyImprovement is not a real algorithm in the sense that it looks for..." alt="" coords="741,241,924,296"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="681,245,741,253,741,259,680,250"/>
+<area shape="rect" id="Node000008" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1PolicyIterationSolver.html" title="The policy iteration class." alt="" coords="741,320,924,375"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="607,254,716,306,745,317,743,322,714,311,605,259"/>
+<area shape="rect" id="Node000009" href="$classcuberl_1_1rl_1_1algos_1_1dp_1_1ValueIteration.html" title="ValueIteration class." alt="" coords="759,399,907,453"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="583,259,640,323,676,356,716,385,760,405,758,410,713,390,673,360,636,327,579,263"/>
+<area shape="rect" id="Node000002" href="$classcuberl_1_1rl_1_1algos_1_1RLSolverBase.html" title="RLAlgoBase. Base class for RL algorithms." alt="" coords="203,210,397,250"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="411,227,445,227,445,233,411,233"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,217,155,243"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,227,202,227,202,233,168,233"/>
+</map>

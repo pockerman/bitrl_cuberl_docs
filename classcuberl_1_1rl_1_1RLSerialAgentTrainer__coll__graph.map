@@ -1,0 +1,7 @@
+<map id="cuberl::rl::RLSerialAgentTrainer&lt; EnvType, AgentType &gt;" name="cuberl::rl::RLSerialAgentTrainer&lt; EnvType, AgentType &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="68,108,295,148"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,155,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,46,164,106,160,110,99,50"/>
+<area shape="rect" id="Node000003" href="$classbitrl_1_1utils_1_1IterativeAlgorithmController.html" title="Controller for iterative algorithms." alt="" coords="179,5,389,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,57,202,110,199,106,253,53"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cubeai::rl::algos::mc::MCTSSolver&lt; EnvTp, NodeTp &gt;" name="cubeai::rl::algos::mc::MCTSSolver&lt; EnvTp, NodeTp &gt;">
+<area shape="rect" id="Node000001" title="MCTreeSearchBase." alt="" coords="111,183,297,237"/>
+<area shape="rect" id="Node000002" href="$classcuberl_1_1rl_1_1algos_1_1RLSolverBase.html" title=" " alt="" coords="5,80,187,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,128,180,181,176,184,123,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="21,5,171,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,44,99,80,93,80,93,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="211,87,269,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="234,126,215,183,210,182,229,125"/>
+</map>

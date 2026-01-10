@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['hex_0',['HEX',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603a58c9566f3c750ce7147b045fdd14202b',1,'bitrl::utils::geom::ElementType']]],
-  ['hex20_1',['HEX20',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a15d87c5b18bc3f98ff7455ecea016176',1,'bitrl::utils::geom::ElementType']]],
-  ['hex8_2',['HEX8',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a0e18237fd06200d8e186037623096cce',1,'bitrl::utils::geom::ElementType']]]
+  ['faileddependency_0',['FailedDependency',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a602c4b6677bc77442ced1999ed18835c',1,'http::Status']]],
+  ['first_1',['FIRST',['../namespacebitrl.html#a951d92c04fcc4301b396dbf4ecdcba39a2c2624a5059934a947d6e25fe8332ade',1,'bitrl']]],
+  ['forbidden_2',['Forbidden',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a02debf2a548b50401c9140663b42569f',1,'http::Status']]],
+  ['found_3',['Found',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a2926b4754e20d1230f8909eb5bbd8b66',1,'http::Status']]]
 ];

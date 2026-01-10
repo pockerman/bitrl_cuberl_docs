@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['invalid_0',['INVALID',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html#ae34391e4b5f8eede9518c67a8def563da3054677fe96468c3180445e37d8ee097',1,'bitrl::envs::grid_world::detail']]],
-  ['invalid_5felement_5ftype_1',['INVALID_ELEMENT_TYPE',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603a72a9be2db43003e2c7c45406386bcb18',1,'bitrl::utils::geom::ElementType']]],
-  ['invalid_5ftype_2',['invalid_type',['../structbitrl_1_1utils_1_1io_1_1FileFormats.html#a34f605d88df9d54b3c9aecd7fc7d8d1ca092170c04de9552a6503565e95b25ca3',1,'bitrl::utils::io::FileFormats::INVALID_TYPE'],['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3',1,'bitrl::INVALID_TYPE'],['../namespacebitrl_1_1envs_1_1grid__world.html#aaef458e69508f413265b6c0e04da225da092170c04de9552a6503565e95b25ca3',1,'bitrl::envs::grid_world::INVALID_TYPE'],['../namespacebitrl_1_1envs_1_1grid__world.html#a40a325c845f1c84fa24cde939f26490ba092170c04de9552a6503565e95b25ca3',1,'bitrl::envs::grid_world::INVALID_TYPE'],['../namespacebitrl.html#a951d92c04fcc4301b396dbf4ecdcba39a092170c04de9552a6503565e95b25ca3',1,'bitrl::INVALID_TYPE'],['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17a092170c04de9552a6503565e95b25ca3',1,'bitrl::sensors::INVALID_TYPE']]]
+  ['gatewaytimeout_0',['GatewayTimeout',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a1daa1a380fbc9e68c64b4a82542090fb',1,'http::Status']]],
+  ['goal_1',['GOAL',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html#a1e882c11a4d5f75523f1f3a2cd440f01aa44f0f47307a84c47d1f82e7a64c8757',1,'bitrl::envs::grid_world::detail']]],
+  ['gone_2',['Gone',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01ad33df506add1d074a091070018fbaca8',1,'http::Status']]],
+  ['gpu_3',['GPU',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a52f9ec21735243ad9917cda3ca077d32',1,'bitrl']]]
 ];

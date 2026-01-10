@@ -1,0 +1,15 @@
+<map id="libs/cuberl/include/cuberl/maths/optimization/optimizer_type.h" name="libs/cuberl/include/cuberl/maths/optimization/optimizer_type.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,5,343,60"/>
+<area shape="rect" id="Node000002" href="$enum_8h.html" title=" " alt="" coords="97,108,259,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,62,198,99,193,95,222,58"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="283,108,342,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="268,58,297,95,293,99,263,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,76,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,136,76,177,74,173,155,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="101,181,167,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="173,135,151,171,146,168,168,132"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="191,181,255,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="188,132,211,168,206,171,183,135"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="280,181,367,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="203,131,289,173,286,178,200,136"/>
+</map>

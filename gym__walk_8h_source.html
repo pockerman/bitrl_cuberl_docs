@@ -287,7 +287,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    <span class="keyword">auto</span> &amp;reset_ops = this-&gt;reset_options();</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keyword">auto</span> seed = <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">utils::resolve&lt;uint_t&gt;</a>(<span class="stringliteral">&quot;seed&quot;</span>, reset_ops);</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keyword">auto</span> seed = utils::resolve&lt;uint_t&gt;(<span class="stringliteral">&quot;seed&quot;</span>, reset_ops);</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keyword">auto</span> response = this-&gt;api_server_ -&gt; reset(this-&gt;env_name(), this-&gt;idx(), seed, nlohmann::json());</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    this-&gt;create_time_step_from_response_(response);</div>
@@ -351,7 +351,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassbitrl_1_1network_1_1RESTRLEnvClient_html_a5d6bd459d145992871de2f09787fd17d"><div class="ttname"><a href="classbitrl_1_1network_1_1RESTRLEnvClient.html#a5d6bd459d145992871de2f09787fd17d">bitrl::network::RESTRLEnvClient::get_env_url</a></div><div class="ttdeci">std::string get_env_url(const std::string &amp;name) const noexcept</div><div class="ttdoc">Return the url for the environment with the given name.</div><div class="ttdef"><b>Definition</b> rest_rl_env_client.cpp:86</div></div>
 <div class="ttc" id="aenv__base_8h_html"><div class="ttname"><a href="env__base_8h.html">env_base.h</a></div></div>
 <div class="ttc" id="aenv__types_8h_html"><div class="ttname"><a href="env__types_8h.html">env_types.h</a></div></div>
-<div class="ttc" id="anamespacebitrl_1_1utils_html_abb0e18993a34ce35a46ca30727c162b5"><div class="ttname"><a href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">bitrl::utils::resolve</a></div><div class="ttdeci">OutT resolve(const std::string &amp;name, const std::map&lt; std::string, std::any &gt; &amp;input)</div><div class="ttdef"><b>Definition</b> std_map_utils.h:25</div></div>
 <div class="ttc" id="anamespacebitrl_html"><div class="ttname"><a href="namespacebitrl.html">bitrl</a></div><div class="ttdef"><b>Definition</b> bitrl_consts.h:13</div></div>
 <div class="ttc" id="anamespacebitrl_html_a84c96b350ee9feed7262273146a5ad11"><div class="ttname"><a href="namespacebitrl.html#a84c96b350ee9feed7262273146a5ad11">bitrl::uint_t</a></div><div class="ttdeci">std::size_t uint_t</div><div class="ttdoc">uint_t</div><div class="ttdef"><b>Definition</b> bitrl_types.h:43</div></div>
 <div class="ttc" id="arest__rl__env__client_8h_html"><div class="ttname"><a href="rest__rl__env__client_8h.html">rest_rl_env_client.h</a></div></div>

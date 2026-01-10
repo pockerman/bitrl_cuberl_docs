@@ -1,12 +1,6 @@
 var searchData=
 [
-  ['quad_5felement_2ecpp_0',['quad_element.cpp',['../quad__element_8cpp.html',1,'']]],
-  ['quad_5felement_2eh_1',['quad_element.h',['../quad__element_8h.html',1,'']]],
-  ['quad_5fmesh_5fgeneration_2ecpp_2',['quad_mesh_generation.cpp',['../quad__mesh__generation_8cpp.html',1,'']]],
-  ['quad_5fmesh_5fgeneration_2eh_3',['quad_mesh_generation.h',['../quad__mesh__generation_8h.html',1,'']]],
-  ['quadcopter_5fsim_5fenv_2ecpp_4',['quadcopter_sim_env.cpp',['../quadcopter__sim__env_8cpp.html',1,'']]],
-  ['quadcopter_5fsim_5fenv_2eh_5',['quadcopter_sim_env.h',['../quadcopter__sim__env_8h.html',1,'']]],
-  ['quadrotor_2eh_6',['quadrotor.h',['../quadrotor_8h.html',1,'']]],
-  ['quadrotor_5fdynamics_2ecpp_7',['quadrotor_dynamics.cpp',['../quadrotor__dynamics_8cpp.html',1,'']]],
-  ['quadrotor_5fdynamics_2eh_8',['quadrotor_dynamics.h',['../quadrotor__dynamics_8h.html',1,'']]]
+  ['odometry_2ecpp_0',['odometry.cpp',['../odometry_8cpp.html',1,'']]],
+  ['odometry_2eh_1',['odometry.h',['../odometry_8h.html',1,'']]],
+  ['optimizer_5ftype_2eh_2',['optimizer_type.h',['../optimizer__type_8h.html',1,'']]]
 ];

@@ -72,7 +72,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">kernel Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -89,7 +90,80 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkernel_1_1CSVMeshWriter.html">CSVMeshWriter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CSVWriter class. Handles writing into CSV file format.  <a href="classkernel_1_1CSVMeshWriter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a06dd28a1d831930793fdba12a3d00f5a" id="r_a06dd28a1d831930793fdba12a3d00f5a"><td class="memTemplParams" colspan="2">template&lt;typename GraphType , typename Predicate &gt; </td></tr>
+<tr class="memitem:a06dd28a1d831930793fdba12a3d00f5a"><td class="memTemplItemLeft" align="right" valign="top">uint_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacekernel.html#a06dd28a1d831930793fdba12a3d00f5a">find_vertex</a> (const GraphType &amp;graph, const Predicate &amp;pred)</td></tr>
+<tr class="separator:a06dd28a1d831930793fdba12a3d00f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c0582a17f63389a3e827d3e6d5b170" id="r_a95c0582a17f63389a3e827d3e6d5b170"><td class="memTemplParams" colspan="2">template&lt;int dim, typename VertexData , typename EdgeData &gt; </td></tr>
+<tr class="memitem:a95c0582a17f63389a3e827d3e6d5b170"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacekernel.html#a95c0582a17f63389a3e827d3e6d5b170">build_mesh_graph</a> (const <a class="el" href="classkernel_1_1numerics_1_1Mesh.html">numerics::Mesh</a>&lt; dim &gt; &amp;mesh, BoostSerialGraph&lt; VertexData, EdgeData &gt; &amp;graph)</td></tr>
+<tr class="memdesc:a95c0582a17f63389a3e827d3e6d5b170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a BoostSerialGraph from a given <a class="el" href="classkernel_1_1numerics_1_1Mesh.html">kernel::numerics::Mesh</a> object.  <br /></td></tr>
+<tr class="separator:a95c0582a17f63389a3e827d3e6d5b170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a95c0582a17f63389a3e827d3e6d5b170" name="a95c0582a17f63389a3e827d3e6d5b170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c0582a17f63389a3e827d3e6d5b170">&#9670;&#160;</a></span>build_mesh_graph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int dim, typename VertexData , typename EdgeData &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void kernel::build_mesh_graph </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkernel_1_1numerics_1_1Mesh.html">numerics::Mesh</a>&lt; dim &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BoostSerialGraph&lt; VertexData, EdgeData &gt; &amp;&#160;</td>
+          <td class="paramname"><em>graph</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Build a BoostSerialGraph from a given <a class="el" href="classkernel_1_1numerics_1_1Mesh.html">kernel::numerics::Mesh</a> object. </p>
+
+</div>
+</div>
+<a id="a06dd28a1d831930793fdba12a3d00f5a" name="a06dd28a1d831930793fdba12a3d00f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06dd28a1d831930793fdba12a3d00f5a">&#9670;&#160;</a></span>find_vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename GraphType , typename Predicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">uint_t kernel::find_vertex </td>
+          <td>(</td>
+          <td class="paramtype">const GraphType &amp;&#160;</td>
+          <td class="paramname"><em>graph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Predicate &amp;&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

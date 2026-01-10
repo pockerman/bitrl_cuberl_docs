@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['quad_0',['QUAD',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603ac88da92039291f825814816096db2ea2',1,'bitrl::utils::geom::ElementType']]],
-  ['quad4_1',['QUAD4',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a46942259a0e4eadbe7375190ece18b40',1,'bitrl::utils::geom::ElementType']]],
-  ['quad8_2',['QUAD8',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066af7eaf0fe7799c33da75656f3b2419e48',1,'bitrl::utils::geom::ElementType']]],
-  ['quad9_3',['QUAD9',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a1233069d905f7d267f9d55e22dae2ca9',1,'bitrl::utils::geom::ElementType']]]
+  ['object_0',['object',['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632aa8cfde6331bd59eb2ac96f8911c4b666',1,'detail']]],
+  ['odmetry_1',['ODMETRY',['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17a9157e922b17ab2fd65d5d57a89180d5d',1,'bitrl::sensors']]],
+  ['ok_2',['Ok',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a91073da054e0ebc796356e20cdd04ccc',1,'http::Status']]]
 ];

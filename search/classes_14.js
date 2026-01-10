@@ -1,6 +1,26 @@
 var searchData=
 [
-  ['ultrasoundmessage_0',['UltrasoundMessage',['../structbitrl_1_1sensors_1_1UltrasoundMessage.html',1,'bitrl::sensors']]],
-  ['uniformdist_1',['UniformDist',['../classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html',1,'bitrl::utils::maths::stats']]],
-  ['uniformweighteddist_2',['UniformWeightedDist',['../classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html',1,'bitrl::utils::maths::stats']]]
+  ['taxi_0',['Taxi',['../classbitrl_1_1envs_1_1gymnasium_1_1Taxi.html',1,'bitrl::envs::gymnasium']]],
+  ['tdalgobase_1',['TDAlgoBase',['../classcuberl_1_1rl_1_1algos_1_1td_1_1TDAlgoBase.html',1,'cuberl::rl::algos::td']]],
+  ['tdalgobase_3c_20envtp_20_3e_2',['TDAlgoBase&lt; EnvTp &gt;',['../classcuberl_1_1rl_1_1algos_1_1td_1_1TDAlgoBase.html',1,'cuberl::rl::algos::td']]],
+  ['tensorboardserver_3',['TensorboardServer',['../classbitrl_1_1network_1_1TensorboardServer.html',1,'bitrl::network']]],
+  ['tet_5ftype_4',['tet_type',['../structbitrl_1_1utils_1_1geom_1_1tet__type.html',1,'bitrl::utils::geom']]],
+  ['timestep_5',['TimeStep',['../classbitrl_1_1TimeStep.html',1,'bitrl']]],
+  ['timestep_3c_20bool_20_3e_6',['TimeStep&lt; bool &gt;',['../classbitrl_1_1TimeStep.html',1,'bitrl']]],
+  ['timestep_3c_20detail_3a_3aboard_5fstate_5ftype_20_3e_7',['TimeStep&lt; detail::board_state_type &gt;',['../classbitrl_1_1TimeStep.html',1,'bitrl']]],
+  ['timestep_3c_20std_3a_3avector_3c_20real_5ft_20_3e_20_3e_8',['TimeStep&lt; std::vector&lt; real_t &gt; &gt;',['../classbitrl_1_1TimeStep.html',1,'bitrl']]],
+  ['timestep_3c_20std_3a_3avector_3c_20uint_5ft_20_3e_20_3e_9',['TimeStep&lt; std::vector&lt; uint_t &gt; &gt;',['../classbitrl_1_1TimeStep.html',1,'bitrl']]],
+  ['timestep_3c_20uint_5ft_20_3e_10',['TimeStep&lt; uint_t &gt;',['../classbitrl_1_1TimeStep.html',1,'bitrl']]],
+  ['timestepenumutils_11',['TimeStepEnumUtils',['../structbitrl_1_1TimeStepEnumUtils.html',1,'bitrl']]],
+  ['to_5fjson_5ffn_12',['to_json_fn',['../structdetail_1_1to__json__fn.html',1,'detail']]],
+  ['toytextenvbase_13',['ToyTextEnvBase',['../classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html',1,'bitrl::envs::gymnasium']]],
+  ['toytextenvbase_3c_20timestep_3c_20std_3a_3avector_3c_20uint_5ft_20_3e_20_3e_2c_2048_2c_202_20_3e_14',['ToyTextEnvBase&lt; TimeStep&lt; std::vector&lt; uint_t &gt; &gt;, 48, 2 &gt;',['../classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html',1,'bitrl::envs::gymnasium']]],
+  ['toytextenvbase_3c_20timestep_3c_20uint_5ft_20_3e_2c_2037_2c_204_20_3e_15',['ToyTextEnvBase&lt; TimeStep&lt; uint_t &gt;, 37, 4 &gt;',['../classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html',1,'bitrl::envs::gymnasium']]],
+  ['toytextenvbase_3c_20timestep_3c_20uint_5ft_20_3e_2c_20500_2c_206_20_3e_16',['ToyTextEnvBase&lt; TimeStep&lt; uint_t &gt;, 500, 6 &gt;',['../classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html',1,'bitrl::envs::gymnasium']]],
+  ['toytextenvbase_3c_20timestep_3c_20uint_5ft_20_3e_2c_20frozenlake_5fstate_5fsize_3c_20side_5fsize_20_3e_3a_3asize_2c_203_20_3e_17',['ToyTextEnvBase&lt; TimeStep&lt; uint_t &gt;, frozenlake_state_size&lt; side_size &gt;::size, 3 &gt;',['../classbitrl_1_1envs_1_1gymnasium_1_1ToyTextEnvBase.html',1,'bitrl::envs::gymnasium']]],
+  ['tri_5ftype_18',['tri_type',['../structbitrl_1_1utils_1_1geom_1_1tri__type.html',1,'bitrl::utils::geom']]],
+  ['tuple_5felement_3c_20n_2c_20_3a_3anlohmann_3a_3adetail_3a_3aiteration_5fproxy_5fvalue_3c_20iteratortype_20_3e_20_3e_19',['tuple_element&lt; N, ::nlohmann::detail::iteration_proxy_value&lt; IteratorType &gt; &gt;',['../classstd_1_1tuple__element_3_01N_00_01_1_1nlohmann_1_1detail_1_1iteration__proxy__value_3_01IteratorType_01_4_01_4.html',1,'std']]],
+  ['tuple_5fsize_3c_3a_3anlohmann_3a_3adetail_3a_3aiteration_5fproxy_5fvalue_3c_20iteratortype_20_3e_20_3e_20',['tuple_size&lt;::nlohmann::detail::iteration_proxy_value&lt; IteratorType &gt; &gt;',['../classstd_1_1tuple__size_3_1_1nlohmann_1_1detail_1_1iteration__proxy__value_3_01IteratorType_01_4_01_4.html',1,'std']]],
+  ['two_21',['two',['../structdetail_1_1is__ordered__map_1_1two.html',1,'detail::is_ordered_map']]],
+  ['type_5ferror_22',['type_error',['../classdetail_1_1type__error.html',1,'detail']]]
 ];

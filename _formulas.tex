@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+  \makeatletter
+    \def\doxynewunicodechar#1#2{%
+    \@tempswafalse
+    \edef\nuc@tempa{\detokenize{#1}}%
+    \if\relax\nuc@tempa\relax
+      \nuc@emptyargerr
+    \else
+      \edef\@tempb{\expandafter\@car\nuc@tempa\@nil}%
+      \nuc@check
+      \if@tempswa
+        \@namedef{u8:\nuc@tempa}{#2}%
+      \fi
+    \fi
+  }
+  \makeatother
+  \doxynewunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \doxynewunicodechar{²}{${}^{2}$}% Superscript two
+  \doxynewunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+\[\hat{\mathbf{x}}_{k} = F_k \mathbf{x}_{k-1} + B_k   \mathbf{u}_k + \mathbf{w}_k\]
+\pagebreak
+
+\[\hat{P}_{k} = F_{k-1}  P_{k-1}  F_{k-1}^T +  Q_{k-1}\]
+\pagebreak
+
+\[K_k = \hat{P}_{k}  H_{k}^T * (H_k  \hat{P}_{k} * H_{k}^T +  R_k )^{-1}\]
+\pagebreak
+
+\[\mathbf{x}_k = \hat{\mathbf{x}}_{k} + K_k  (z_k - h( \hat{x}_{k}, 0))\]
+\pagebreak
+
+\[P_k = (I - K_k  H_k)  \hat{P}_{k}\]
+\pagebreak
+
+$w_k$
+\pagebreak
+
+$v_k$
+\pagebreak
+
+\[p(w) \sim N(0,Q)\]
+\pagebreak
+
+\[p(v) \sim N(0,R)\]
+\pagebreak
+
+\[ \mathbf{F} n \times n \]
+\pagebreak
+
+\[ \mathfb{P} n \times n \]
+\pagebreak
+
+\[ \mathbf{B} n \times l \]
+\pagebreak
+
+\[ \mathbf{H} m \times n \]
+\pagebreak
+
+\[ \mathbf{K} n \times m \]
+\pagebreak
+
+\[ \mathbf{Q} n \times n \]
+\pagebreak
+
+\[ \mathbf{R} m \times m \]
+\pagebreak
+
+\[\hat{x}_{k = F_k* x_{k-1} + B_k *  u_k + w_k\]
+\pagebreak
+
+\[\hat{P}_{k} = F_{k-1} * P_{k-1} * F_{k-1}^T +  Q_{k-1}\]
+\pagebreak
+
+$x_{k-1}$
+\pagebreak
+
+$u_{k}$
+\pagebreak
+
+$u_k$
+\pagebreak
+
+$K$
+\pagebreak
+
+$x$
+\pagebreak
+
+$x_{rand}$
+\pagebreak
+
+$x_{new}$
+\pagebreak
+
+$u$
+\pagebreak
+
+\end{document}

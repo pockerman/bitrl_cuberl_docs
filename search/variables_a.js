@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['l_0',['l',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#acb920db07b5b2d2c5deb187c0b4e4fb1',1,'bitrl::dynamics::QuadrotorDynamicsConfig::l'],['../structbitrl_1_1dynamics_1_1BicycleVehicleModelDynamicsConfig.html#a36d831b3c201ff0bfe2f3862582fafb0',1,'bitrl::dynamics::BicycleVehicleModelDynamicsConfig::L']]],
-  ['limits_1',['limits',['../structbitrl_1_1envs_1_1ScalarDiscreteSpace.html#a4b17743de9e6845e907b374b0f395709',1,'bitrl::envs::ScalarDiscreteSpace']]]
+  ['jx_0',['Jx',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#aa7395d281197ca55b3fd4fb7e9145c43',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]],
+  ['jy_1',['Jy',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#aa7c5dc635a68f889c97b0f600c87e51e',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]],
+  ['jz_2',['Jz',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#aa620052f46f61a335a2d29a5bb8282d2',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]]
 ];

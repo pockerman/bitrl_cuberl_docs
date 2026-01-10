@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['json_0',['JSON',['../structbitrl_1_1utils_1_1io_1_1FileFormats.html#a34f605d88df9d54b3c9aecd7fc7d8d1ca0ecd11c1d7a287401d148a23bbd7a2f8',1,'bitrl::utils::io::FileFormats']]]
+  ['hex_0',['HEX',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603a58c9566f3c750ce7147b045fdd14202b',1,'bitrl::utils::geom::ElementType']]],
+  ['hex20_1',['HEX20',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a15d87c5b18bc3f98ff7455ecea016176',1,'bitrl::utils::geom::ElementType']]],
+  ['hex8_2',['HEX8',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a0e18237fd06200d8e186037623096cce',1,'bitrl::utils::geom::ElementType']]],
+  ['httpversionnotsupported_3',['HttpVersionNotSupported',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01adab26c846f57f40f1980888d537c1adf',1,'http::Status']]]
 ];

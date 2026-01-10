@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,20,192,45"/>
-<area shape="rect" id="Node000001" href="$classbitrl_1_1envs_1_1EnvBase.html" title=" " alt="" coords="240,5,481,60"/>
-<area shape="poly" id="edge53_Node000000_Node000001" title=" " alt="" coords="206,30,240,30,240,35,206,35"/>
-<area shape="rect" id="Node000002" href="$classbitrl_1_1envs_1_1bandits_1_1MultiArmedBandits.html" title=" " alt="" coords="529,13,684,53"/>
-<area shape="poly" id="edge54_Node000001_Node000002" title=" " alt="" coords="495,30,529,30,529,35,495,35"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,119,56"/>
+<area shape="rect" id="Node000001" href="$structdetail_1_1is__c__string.html" title=" " alt="" coords="179,5,353,31"/>
+<area shape="poly" id="edge32_Node000000_Node000001" title=" " alt="" coords="132,32,178,26,179,32,133,37"/>
+<area shape="rect" id="Node000002" href="$structdetail_1_1is__transparent.html" title=" " alt="" coords="167,55,365,80"/>
+<area shape="poly" id="edge33_Node000000_Node000002" title=" " alt="" coords="133,49,167,53,166,58,132,54"/>
 </map>

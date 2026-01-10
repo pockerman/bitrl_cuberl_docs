@@ -1,0 +1,9 @@
+<map id="cuberl::rl::algos::td::ExpectedSARSA&lt; EnvTp, ActionSelector &gt;" name="cuberl::rl::algos::td::ExpectedSARSA&lt; EnvTp, ActionSelector &gt;">
+<area shape="rect" id="Node000001" title="The ExpectedSARSA class. Simple implementation of the expected SARSA algorithm." alt="" coords="5,255,212,309"/>
+<area shape="rect" id="Node000002" href="$classcuberl_1_1rl_1_1algos_1_1td_1_1TDAlgoBase.html" title=" " alt="" coords="13,167,205,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,220,111,255,106,255,106,220"/>
+<area shape="rect" id="Node000003" href="$classcuberl_1_1rl_1_1algos_1_1RLSolverBase.html" title="RLAlgoBase. Base class for RL algorithms." alt="" coords="11,79,206,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,133,111,166,106,166,106,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="34,5,183,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,44,111,79,106,79,106,44"/>
+</map>
