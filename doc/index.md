@@ -202,3 +202,5 @@ The documentation will be installed under _./docs/html_ under the project's sour
 
 ## Examples
 
+➡ \ref examples
+
