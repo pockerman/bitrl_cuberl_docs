@@ -208,6 +208,11 @@ Dependencies</h1>
 <li>PahoMqttCpp (optional)</li>
 <li>Chrono (optional)</li>
 </ul>
+<p>In addition the library uses</p>
+<ul>
+<li><a href="https://github.com/nlohmann/json">json</a> (extern/nlhmann)</li>
+<li><a href="https://github.com/elnormous/HTTPRequest">HTTPRequest</a> (extern/)</li>
+</ul>
 <p><em>cuberl</em> has the following dependencies:</p>
 <ul>
 <li>OpenCV (optional)</li>
@@ -223,14 +228,16 @@ Installation</h1>
 <div class="line">make install -j4</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md24"></a>
 Build the documentation</h1>
-<p>You can build the documentation locally. Pull the repository that hosts the documentation for both libraries from: <a href="https://github.com/pockerman/bitrl_cuberl_docs">https://github.com/pockerman/bitrl_cuberl_docs</a> Update the submodules for the two libraries:</p>
-<div class="fragment"><div class="line">git submodule update --remote</div>
-</div><!-- fragment --><p>In this case, Doxygen should be installed on your machine.</p>
-<div class="fragment"><div class="line">cd build</div>
-<div class="line">cmake -DCMAKE_INSTALL_PREFIX=/path/where/bitrl/should/be/installed/to ..</div>
-<div class="line">make install -j4</div>
-<div class="line">make doc</div>
-</div><!-- fragment --><p>The documentation will be installed under <em>docs</em> under the project's source directory</p>
+<p>You can build the documentation locally. You will need Doxygen and graphviz installed:</p>
+<div class="fragment"><div class="line">sudo apt install doxygen graphviz</div>
+</div><!-- fragment --><p>Clone the repository that hosts the documentation:</p>
+<div class="fragment"><div class="line">git clone https://github.com/pockerman/bitrl_cuberl_docs</div>
+</div><!-- fragment --><p>Update the submodules for the two libraries:</p>
+<div class="fragment"><div class="line">git submodule init</div>
+<div class="line">git submodule update</div>
+</div><!-- fragment --><p>Execute doxygen</p>
+<div class="fragment"><div class="line">doxygen Doxyfile</div>
+</div><!-- fragment --><p>The documentation will be installed under _./docs/html_ under the project's source directory</p>
 <h1><a class="anchor" id="autotoc_md25"></a>
 Examples</h1>
 </div></div><!-- PageDoc -->
