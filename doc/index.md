@@ -1,4 +1,5 @@
-# bitrl-doc
+# bitrl & cubrl documentation
+
 _bitrl_ is an effort to provide implementations and wrappers of environments suitable for training reinforcement learning agents
 using  C++.
 
@@ -133,14 +134,25 @@ Various RL algorithms using the environments can be found at <a href="https://gi
 
 ## Dependencies
 
-_bitrl_ has a number of dependencies assumed to be installed under usual destination on a system:
+Below are the dependencies for the common dependencies for both libraries
 
+- CMake
 - Boost
 - Eigen3
 - Blas
-- OpenCV
-- PahoMqttCpp
-- Doxygen
+
+_bitrl_ has the following dependencies: 
+
+- OpenCV (optional)
+- PahoMqttCpp (optional)
+- Chrono (optional)
+
+_cuberl_ has the following dependencies:
+
+- OpenCV (optional)
+- PahoMqttCpp (optional)
+- Pytorch (optional)
+- Chrono (optional)
 
 ## Installation
 
@@ -154,7 +166,14 @@ make install -j4
 
 ## Build the documentation
 
-You can build the documentation locally. In this case, Doxygen should be installed on your machine.
+You can build the documentation locally. Pull the repository that hosts the documentation for both libraries from: https://github.com/pockerman/bitrl_cuberl_docs
+Update the submodules for the two libraries:
+
+@code
+git submodule update --remote
+@endcode
+
+In this case, Doxygen should be installed on your machine.
 
 @code
 cd build
