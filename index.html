@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bitrl Documentation: bitrl-doc</title>
+<title>bitrl Documentation: bitrl &amp; cubrl documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,10 +70,10 @@ $(function() {
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">bitrl-doc </div></div>
+  <div class="headertitle"><div class="title">bitrl &amp; cubrl documentation </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_doc_2index"></a><em>bitrl</em> is an effort to provide implementations and wrappers of environments suitable for training reinforcement learning agents using C++.</p>
+<div class="textblock"><p><a class="anchor" id="md_doc_2index"></a> <em>bitrl</em> is an effort to provide implementations and wrappers of environments suitable for training reinforcement learning agents using C++.</p>
 <p>The following is an example how to use the <em>FrozenLake</em> environment from <a href="https://github.com/Farama-Foundation/Gymnasium/tree/main">Gymnasium</a>.</p>
 <div class="fragment"><div class="line">#include &quot;bitrl/bitrl_types.h&quot;</div>
 <div class="line">#include &quot;bitrl/envs/gymnasium/toy_text/frozen_lake_env.h&quot;</div>
@@ -195,14 +195,25 @@ $(function() {
 </div><!-- fragment --><p>Gymnasium environments exposed over a REST like API can be found at: <a href="https://github.com/pockerman/bitrl-rest-api">bitrl-rest-api</a>. Various RL algorithms using the environments can be found at <a href="https://github.com/pockerman/cuberl/tree/master">cuberl</a>.</p>
 <h1><a class="anchor" id="autotoc_md22"></a>
 Dependencies</h1>
-<p><em>bitrl</em> has a number of dependencies assumed to be installed under usual destination on a system:</p>
+<p>Below are the dependencies for the common dependencies for both libraries</p>
 <ul>
+<li>CMake</li>
 <li>Boost</li>
 <li>Eigen3</li>
 <li>Blas</li>
-<li>OpenCV</li>
-<li>PahoMqttCpp</li>
-<li>Doxygen</li>
+</ul>
+<p><em>bitrl</em> has the following dependencies:</p>
+<ul>
+<li>OpenCV (optional)</li>
+<li>PahoMqttCpp (optional)</li>
+<li>Chrono (optional)</li>
+</ul>
+<p><em>cuberl</em> has the following dependencies:</p>
+<ul>
+<li>OpenCV (optional)</li>
+<li>PahoMqttCpp (optional)</li>
+<li>Pytorch (optional)</li>
+<li>Chrono (optional)</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md23"></a>
 Installation</h1>
@@ -212,7 +223,9 @@ Installation</h1>
 <div class="line">make install -j4</div>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md24"></a>
 Build the documentation</h1>
-<p>You can build the documentation locally. In this case, Doxygen should be installed on your machine.</p>
+<p>You can build the documentation locally. Pull the repository that hosts the documentation for both libraries from: <a href="https://github.com/pockerman/bitrl_cuberl_docs">https://github.com/pockerman/bitrl_cuberl_docs</a> Update the submodules for the two libraries:</p>
+<div class="fragment"><div class="line">git submodule update --remote</div>
+</div><!-- fragment --><p>In this case, Doxygen should be installed on your machine.</p>
 <div class="fragment"><div class="line">cd build</div>
 <div class="line">cmake -DCMAKE_INSTALL_PREFIX=/path/where/bitrl/should/be/installed/to ..</div>
 <div class="line">make install -j4</div>

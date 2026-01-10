@@ -150,7 +150,7 @@ var searchData=
   ['binary_5freader_147',['binary_reader',['../classdetail_1_1binary__reader.html#a03d3ad5fd319550b8ca4e54ddcf46ba0',1,'detail::binary_reader::binary_reader()'],['../classdetail_1_1binary__reader.html',1,'detail::binary_reader&lt; BasicJsonType, InputAdapterType, SAX &gt;'],['../classdetail_1_1binary__reader.html#a5dc3e9216177efe30686876d3faccf52',1,'detail::binary_reader::binary_reader(InputAdapterType &amp;&amp;adapter, const input_format_t format=input_format_t::json) noexcept'],['../classdetail_1_1binary__reader.html#a4197fcaec6f876fd9019c0f6a48c7f0d',1,'detail::binary_reader::binary_reader(binary_reader &amp;&amp;)=default']]],
   ['binary_5ft_148',['binary_t',['../structjson__sax.html#aeb5a583cc482d34e764d038a9c682e02',1,'json_sax::binary_t'],['../classdetail_1_1json__sax__dom__parser.html#ada36726394d0347cb9a08da4180d16de',1,'detail::json_sax_dom_parser::binary_t'],['../classdetail_1_1json__sax__dom__callback__parser.html#a5cecb50b0919af3bcdf75e229460591f',1,'detail::json_sax_dom_callback_parser::binary_t'],['../classdetail_1_1json__sax__acceptor.html#aab5e83f6e2512b51b0c8f65364af63d9',1,'detail::json_sax_acceptor::binary_t'],['../classbasic__json.html#a4c1b5ea434b48cf31097617bb1c1ca1e',1,'basic_json::binary_t']]],
   ['bitrl_149',['bitrl',['../namespacebitrl.html',1,'']]],
-  ['bitrl_20doc_150',['bitrl-doc',['../index.html',1,'']]],
+  ['bitrl_20cubrl_20documentation_150',['bitrl &amp; cubrl documentation',['../index.html',1,'']]],
   ['bitrl_3a_3aboards_151',['boards',['../namespacebitrl_1_1boards.html',1,'bitrl']]],
   ['bitrl_3a_3aboards_3a_3aarduino_152',['arduino',['../namespacebitrl_1_1boards_1_1arduino.html',1,'bitrl::boards']]],
   ['bitrl_3a_3aconsts_153',['consts',['../namespacebitrl_1_1consts.html',1,'bitrl']]],

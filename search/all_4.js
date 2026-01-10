@@ -198,5 +198,6 @@ var searchData=
   ['cuberl_3a_3autils_3a_3aconcepts_3a_3afloat_5fvector_195',['float_vector',['../conceptcuberl_1_1utils_1_1concepts_1_1float__vector.html',1,'cuberl::utils::concepts']]],
   ['cuberl_3a_3autils_3a_3aconcepts_3a_3aintegral_5fvector_196',['integral_vector',['../conceptcuberl_1_1utils_1_1concepts_1_1integral__vector.html',1,'cuberl::utils::concepts']]],
   ['cuberl_3a_3autils_3a_3aconcepts_3a_3ais_5fdefault_5fconstructible_197',['is_default_constructible',['../conceptcuberl_1_1utils_1_1concepts_1_1is__default__constructible.html',1,'cuberl::utils::concepts']]],
-  ['current_5fiteration_5findex_198',['current_iteration_index',['../classbitrl_1_1utils_1_1IterationCounter.html#a97b91cf47259e532f77ac22980d9df62',1,'bitrl::utils::IterationCounter']]]
+  ['cubrl_20documentation_198',['bitrl &amp; cubrl documentation',['../index.html',1,'']]],
+  ['current_5fiteration_5findex_199',['current_iteration_index',['../classbitrl_1_1utils_1_1IterationCounter.html#a97b91cf47259e532f77ac22980d9df62',1,'bitrl::utils::IterationCounter']]]
 ];

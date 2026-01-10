@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['list_0',['list',['../deprecated.html',1,'Deprecated List'],['../todo.html',1,'Todo List']]]
+  ['deprecated_20list_0',['Deprecated List',['../deprecated.html',1,'']]],
+  ['documentation_1',['bitrl &amp; cubrl documentation',['../index.html',1,'']]]
 ];
