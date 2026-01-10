@@ -147,6 +147,11 @@ _bitrl_ has the following dependencies:
 - PahoMqttCpp (optional)
 - Chrono (optional)
 
+In addition the library uses 
+
+- <a href="https://github.com/nlohmann/json">json</a> (extern/nlhmann)
+- <a href="https://github.com/elnormous/HTTPRequest">HTTPRequest</a> (extern/)
+
 _cuberl_ has the following dependencies:
 
 - OpenCV (optional)
@@ -166,24 +171,33 @@ make install -j4
 
 ## Build the documentation
 
-You can build the documentation locally. Pull the repository that hosts the documentation for both libraries from: https://github.com/pockerman/bitrl_cuberl_docs
+You can build the documentation locally. You will need Doxygen and graphviz installed:
+
+@code
+sudo apt install doxygen graphviz
+@endcode
+
+Clone the repository that hosts the documentation:
+
+@code
+git clone https://github.com/pockerman/bitrl_cuberl_docs
+@endcode
+
 Update the submodules for the two libraries:
 
 @code
-git submodule update --remote
+git submodule init
+git submodule update
 @endcode
 
-In this case, Doxygen should be installed on your machine.
+Execute doxygen
 
 @code
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/path/where/bitrl/should/be/installed/to ..
-make install -j4
-make doc
+doxygen Doxyfile
 @endcode
 
 
-The documentation will be installed under _docs_ under the project's source directory
+The documentation will be installed under _./docs/html_ under the project's source directory
 
 
 ## Examples
