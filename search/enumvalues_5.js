@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['faileddependency_0',['FailedDependency',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a602c4b6677bc77442ced1999ed18835c',1,'http::Status']]],
-  ['first_1',['FIRST',['../namespacebitrl.html#a951d92c04fcc4301b396dbf4ecdcba39a2c2624a5059934a947d6e25fe8332ade',1,'bitrl']]],
-  ['forbidden_2',['Forbidden',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a02debf2a548b50401c9140663b42569f',1,'http::Status']]],
-  ['found_3',['Found',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a2926b4754e20d1230f8909eb5bbd8b66',1,'http::Status']]]
+  ['goal_0',['GOAL',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html#a1e882c11a4d5f75523f1f3a2cd440f01aa44f0f47307a84c47d1f82e7a64c8757',1,'bitrl::envs::grid_world::detail']]],
+  ['gpu_1',['GPU',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a52f9ec21735243ad9917cda3ca077d32',1,'bitrl']]]
 ];

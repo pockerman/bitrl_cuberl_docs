@@ -1,4 +1,29 @@
 var searchData=
 [
-  ['_3a_3ajson_5fliterals_0',['json_literals',['../namespaceliterals_1_1json__literals.html',1,'']]]
+  ['bitrl_0',['bitrl',['../namespacebitrl.html',1,'']]],
+  ['bitrl_3a_3aboards_1',['boards',['../namespacebitrl_1_1boards.html',1,'bitrl']]],
+  ['bitrl_3a_3aboards_3a_3aarduino_2',['arduino',['../namespacebitrl_1_1boards_1_1arduino.html',1,'bitrl::boards']]],
+  ['bitrl_3a_3aconsts_3',['consts',['../namespacebitrl_1_1consts.html',1,'bitrl']]],
+  ['bitrl_3a_3aconsts_3a_3amaths_4',['maths',['../namespacebitrl_1_1consts_1_1maths.html',1,'bitrl::consts']]],
+  ['bitrl_3a_3adynamics_5',['dynamics',['../namespacebitrl_1_1dynamics.html',1,'bitrl']]],
+  ['bitrl_3a_3aenvs_6',['envs',['../namespacebitrl_1_1envs.html',1,'bitrl']]],
+  ['bitrl_3a_3aenvs_3a_3abandits_7',['bandits',['../namespacebitrl_1_1envs_1_1bandits.html',1,'bitrl::envs']]],
+  ['bitrl_3a_3aenvs_3a_3aconnect2_8',['connect2',['../namespacebitrl_1_1envs_1_1connect2.html',1,'bitrl::envs']]],
+  ['bitrl_3a_3aenvs_3a_3agdrl_9',['gdrl',['../namespacebitrl_1_1envs_1_1gdrl.html',1,'bitrl::envs']]],
+  ['bitrl_3a_3aenvs_3a_3agrid_5fworld_10',['grid_world',['../namespacebitrl_1_1envs_1_1grid__world.html',1,'bitrl::envs']]],
+  ['bitrl_3a_3aenvs_3a_3agrid_5fworld_3a_3adetail_11',['detail',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html',1,'bitrl::envs::grid_world']]],
+  ['bitrl_3a_3aenvs_3a_3agymnasium_12',['gymnasium',['../namespacebitrl_1_1envs_1_1gymnasium.html',1,'bitrl::envs']]],
+  ['bitrl_3a_3aenvs_3a_3agymnasium_3a_3adetail_5f_13',['detail_',['../namespacebitrl_1_1envs_1_1gymnasium_1_1detail__.html',1,'bitrl::envs::gymnasium']]],
+  ['bitrl_3a_3aenvs_3a_3agymnasium_3a_3alunar_5flander_5fdetail_14',['lunar_lander_detail',['../namespacebitrl_1_1envs_1_1gymnasium_1_1lunar__lander__detail.html',1,'bitrl::envs::gymnasium']]],
+  ['bitrl_3a_3anetwork_15',['network',['../namespacebitrl_1_1network.html',1,'bitrl']]],
+  ['bitrl_3a_3arigid_5fbodies_16',['rigid_bodies',['../namespacebitrl_1_1rigid__bodies.html',1,'bitrl']]],
+  ['bitrl_3a_3asensors_17',['sensors',['../namespacebitrl_1_1sensors.html',1,'bitrl']]],
+  ['bitrl_3a_3autils_18',['utils',['../namespacebitrl_1_1utils.html',1,'bitrl']]],
+  ['bitrl_3a_3autils_3a_3ageom_19',['geom',['../namespacebitrl_1_1utils_1_1geom.html',1,'bitrl::utils']]],
+  ['bitrl_3a_3autils_3a_3ageom_3a_3abiblsimpp_5fgeom_5fimplementation_20',['biblsimpp_geom_implementation',['../namespacebitrl_1_1utils_1_1geom_1_1biblsimpp__geom__implementation.html',1,'bitrl::utils::geom']]],
+  ['bitrl_3a_3autils_3a_3aio_21',['io',['../namespacebitrl_1_1utils_1_1io.html',1,'bitrl::utils']]],
+  ['bitrl_3a_3autils_3a_3amaths_22',['maths',['../namespacebitrl_1_1utils_1_1maths.html',1,'bitrl::utils']]],
+  ['bitrl_3a_3autils_3a_3amaths_3a_3astats_23',['stats',['../namespacebitrl_1_1utils_1_1maths_1_1stats.html',1,'bitrl::utils::maths']]],
+  ['bitrl_3a_3autils_3a_3atrajectory_24',['trajectory',['../namespacebitrl_1_1utils_1_1trajectory.html',1,'bitrl::utils']]],
+  ['bitrl_3a_3autils_3a_3aunit_5fconverter_25',['unit_converter',['../namespacebitrl_1_1utils_1_1unit__converter.html',1,'bitrl::utils']]]
 ];

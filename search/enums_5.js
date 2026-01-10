@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['internetprotocol_0',['InternetProtocol',['../namespacehttp.html#a672892389a9ddd4ac61297847de529e5',1,'http']]]
+  ['sensortypeenum_0',['SensorTypeEnum',['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17',1,'bitrl::sensors']]],
+  ['sub_5ftype_1',['sub_type',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066',1,'bitrl::utils::geom::ElementType']]]
 ];

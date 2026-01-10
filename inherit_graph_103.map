@@ -1,19 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbitrl_1_1utils_1_1geom_1_1GeomPoint.html" title="A class that describes a point with spacedim spatial dimension space." alt="" coords="5,53,216,93"/>
-<area shape="rect" id="Node000001" href="$classbitrl_1_1utils_1_1geom_1_1FaceElement_3_01spacedim_00_010_01_4.html" title=" " alt="" coords="264,69,487,109"/>
-<area shape="poly" id="edge23_Node000000_Node000001" title=" " alt="" coords="230,78,264,80,263,85,230,83"/>
-<area shape="rect" id="Node000008" href="$classbitrl_1_1utils_1_1trajectory_1_1WayPoint.html" title="Helper class to represent a waypoint." alt="" coords="283,5,468,45"/>
-<area shape="poly" id="edge24_Node000000_Node000008" title=" " alt="" coords="229,49,282,40,283,45,230,54"/>
-<area shape="rect" id="Node000002" href="$classbitrl_1_1utils_1_1geom_1_1MeshEntity.html" title="Helper class that wraps non template dependent parameters and common to every mesh entity." alt="" coords="46,149,175,189"/>
-<area shape="poly" id="edge30_Node000002_Node000001" title=" " alt="" coords="186,143,263,119,303,107,305,112,265,124,188,148"/>
-<area shape="rect" id="Node000003" href="$classbitrl_1_1utils_1_1geom_1_1Element.html" title=" " alt="" coords="311,133,440,173"/>
-<area shape="poly" id="edge25_Node000002_Node000003" title=" " alt="" coords="189,162,310,155,310,160,189,167"/>
-<area shape="rect" id="Node000005" href="$classbitrl_1_1utils_1_1geom_1_1Element.html" title=" " alt="" coords="311,197,440,237"/>
-<area shape="poly" id="edge27_Node000002_Node000005" title=" " alt="" coords="189,181,311,203,310,208,188,186"/>
-<area shape="rect" id="Node000007" href="$classbitrl_1_1utils_1_1geom_1_1Element.html" title="Wraps the notion of an element." alt="" coords="306,261,445,301"/>
-<area shape="poly" id="edge29_Node000002_Node000007" title=" " alt="" coords="158,194,209,221,265,247,307,261,305,266,263,252,207,226,156,198"/>
-<area shape="rect" id="Node000004" href="$classbitrl_1_1utils_1_1geom_1_1EdgeElem_3_011_01_4.html" title=" " alt="" coords="535,133,668,173"/>
-<area shape="poly" id="edge26_Node000003_Node000004" title=" " alt="" coords="454,151,534,151,534,156,454,156"/>
-<area shape="rect" id="Node000006" href="$classbitrl_1_1utils_1_1geom_1_1Quad_3_012_01_4.html" title=" " alt="" coords="537,197,666,237"/>
-<area shape="poly" id="edge28_Node000005_Node000006" title=" " alt="" coords="453,215,536,215,536,220,453,220"/>
+<area shape="rect" id="Node000000" href="$classbitrl_1_1utils_1_1geom_1_1Quad.html" title=" " alt="" coords="5,5,135,45"/>
 </map>

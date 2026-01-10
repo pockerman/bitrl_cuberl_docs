@@ -1,15 +1,7 @@
 <map id="libs/cuberl/include/cuberl/utils/loss_type.h" name="libs/cuberl/include/cuberl/utils/loss_type.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="157,5,333,45"/>
-<area shape="rect" id="Node000002" href="$enum_8h.html" title=" " alt="" coords="97,93,259,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,47,199,84,195,81,227,44"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="283,93,342,119"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="263,44,296,81,292,84,259,47"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,76,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,121,76,163,74,158,155,116"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="101,167,167,192"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="173,120,151,156,146,154,168,118"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="191,167,255,192"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="188,118,211,154,206,157,183,120"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="280,167,367,192"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="203,116,289,158,286,163,200,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="65,5,241,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,167,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,47,107,84,103,81,135,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="191,93,250,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,44,204,81,200,84,167,47"/>
 </map>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['object_0',['object',['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632aa8cfde6331bd59eb2ac96f8911c4b666',1,'detail']]],
-  ['odmetry_1',['ODMETRY',['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17a9157e922b17ab2fd65d5d57a89180d5d',1,'bitrl::sensors']]],
-  ['ok_2',['Ok',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a91073da054e0ebc796356e20cdd04ccc',1,'http::Status']]]
+  ['pit_0',['PIT',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html#a1e882c11a4d5f75523f1f3a2cd440f01a08a71fcb1a8348d7f343957f5101de36',1,'bitrl::envs::grid_world::detail']]],
+  ['player_1',['player',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html#a1e882c11a4d5f75523f1f3a2cd440f01a01b27d7ff1e9ebe21223ff0a9d529ec1',1,'bitrl::envs::grid_world::detail::PLAYER'],['../namespacebitrl_1_1envs_1_1grid__world.html#aaef458e69508f413265b6c0e04da225da07c80e2a355d91402a00d82b1fa13855',1,'bitrl::envs::grid_world::PLAYER']]]
 ];

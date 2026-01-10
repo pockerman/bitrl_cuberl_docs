@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['mean_0',['MEAN',['../namespacecuberl_1_1rl_1_1algos_1_1pg.html#ad045e6a427e393e8b1ae67c87753bae6a4ea6d1161ea24d7599365f574aff6610',1,'cuberl::rl::algos::pg']]],
-  ['methodnotallowed_1',['MethodNotAllowed',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01ae87507e02a3887bdb40713009df14fd8',1,'http::Status']]],
-  ['mid_2',['MID',['../namespacebitrl.html#a951d92c04fcc4301b396dbf4ecdcba39a18e48bbdf6d326bd88d3ebb99ad7515d',1,'bitrl']]],
-  ['misdirectedrequest_3',['MisdirectedRequest',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01aa045a4b6b6e3ed7ad4396e958a952b56',1,'http::Status']]],
-  ['movedpermanently_4',['MovedPermanently',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a19e037cebe21afd8717aea57afd92d04',1,'http::Status']]],
-  ['multiplechoice_5',['MultipleChoice',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a6aabcb5eff71c8d068b13fc558378714',1,'http::Status']]],
-  ['multistatus_6',['MultiStatus',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01ae7b4f2e823403dc2745ff5e571802a91',1,'http::Status']]]
+  ['node_5felem_0',['NODE_ELEM',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603ac8461012eed5d0f239c11488195888dc',1,'bitrl::utils::geom::ElementType']]],
+  ['none_1',['none',['../namespacecuberl_1_1rl_1_1algos_1_1pg.html#ad045e6a427e393e8b1ae67c87753bae6ab50339a10e1de285ac99d4c3990b8693',1,'cuberl::rl::algos::pg::NONE'],['../namespacecuberl_1_1rl_1_1policies.html#a8cf3e60a8dae19acb81f9dd6ef8d445cab50339a10e1de285ac99d4c3990b8693',1,'cuberl::rl::policies::NONE']]]
 ];

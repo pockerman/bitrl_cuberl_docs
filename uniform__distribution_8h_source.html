@@ -137,10 +137,10 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">   56</a></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType&gt; <span class="keyword">class </span><a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">UniformDist</a></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>{</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">typedef</span> OutType out_type;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">typedef</span> <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">OutType</a> out_type;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">typedef</span> std::pair&lt;out_type, out_type&gt; range_type;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">UniformDist</a>(out_type a, out_type b);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">UniformDist</a>(out_type <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">a</a>, out_type <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">b</a>);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">UniformDist</a>(range_type range);</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
@@ -152,20 +152,20 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    range_type range_;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    uniform_distribution_selector&lt;out_type&gt;::distribution_type distribution_;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">uniform_distribution_selector&lt;out_type&gt;::distribution_type</a> distribution_;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>};</div>
 </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType&gt;</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">UniformDist&lt;OutType&gt;::UniformDist</a>(<span class="keyword">typename</span> UniformDist&lt;OutType&gt;::out_type a,</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                                  <span class="keyword">typename</span> UniformDist&lt;OutType&gt;::out_type b)</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    : range_(a, b), distribution_(a, b)</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformDist.html">UniformDist&lt;OutType&gt;::UniformDist</a>(<span class="keyword">typename</span> UniformDist&lt;OutType&gt;::out_type <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">a</a>,</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                                  <span class="keyword">typename</span> UniformDist&lt;OutType&gt;::out_type <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">b</a>)</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    : range_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">a</a>, <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">b</a>), distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">a</a>, <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">b</a>)</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>{</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>}</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType&gt;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>UniformDist&lt;OutType&gt;::UniformDist(<span class="keyword">typename</span> UniformDist&lt;OutType&gt;::range_type range)</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    : UniformDist&lt;OutType&gt;(range.first, range.second)</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    : UniformDist&lt;<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">OutType</a>&gt;(range.first, range.<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">second</a>)</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>{</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
@@ -173,32 +173,32 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>{</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="comment">// a seed source for the random number engine</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    std::random_device rd;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    std::random_device <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">rd</a>;</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="comment">// mersenne_twister_engine seeded with rd()</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    std::mt19937 gen(rd());</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    std::mt19937 <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">rd</a>());</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordflow">return</span> distribution_(gen);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordflow">return</span> distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>}</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType&gt;</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keyword">typename</span> UniformDist&lt;OutType&gt;::out_type UniformDist&lt;OutType&gt;::sample(<a class="code hl_typedef" href="namespacebitrl.html#a84c96b350ee9feed7262273146a5ad11">uint_t</a> seed)</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>{</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="comment">// mersenne_twister_engine seeded with seed</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    std::mt19937 gen(seed);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> distribution_(gen);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    std::mt19937 <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>(seed);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>}</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
 <div class="foldopen" id="foldopen00125" data-start="{" data-end="};">
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html">  125</a></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType, <span class="keyword">typename</span> WeightType = real_t&gt; <span class="keyword">class </span><a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html">UniformWeightedDist</a></div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>{</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acc58689d6b9f6bc903d215ec1222c22c">  128</a></span>    <span class="keyword">typedef</span> OutType <a class="code hl_typedef" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acc58689d6b9f6bc903d215ec1222c22c">out_type</a>;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acc58689d6b9f6bc903d215ec1222c22c">  128</a></span>    <span class="keyword">typedef</span> <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">OutType</a> <a class="code hl_typedef" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acc58689d6b9f6bc903d215ec1222c22c">out_type</a>;</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acaa6162aa3367d00924bd996c82fd84e">  129</a></span>    <span class="keyword">typedef</span> std::vector&lt;WeightType&gt; <a class="code hl_typedef" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acaa6162aa3367d00924bd996c82fd84e">weights_type</a>;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> VectorType&gt; <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html">UniformWeightedDist</a>(<span class="keyword">const</span> VectorType &amp;weights);</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> VectorType&gt; <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html">UniformWeightedDist</a>(<span class="keyword">const</span> <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">VectorType</a> &amp;<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>);</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html">UniformWeightedDist</a>(std::initializer_list&lt;WeightType&gt; weights);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <a class="code hl_class" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html">UniformWeightedDist</a>(std::initializer_list&lt;WeightType&gt; <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>);</div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <a class="code hl_typedef" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acc58689d6b9f6bc903d215ec1222c22c">out_type</a> <a class="code hl_function" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a14c33971e68ceea9a1c3b727fe411462">sample</a>();</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
@@ -215,8 +215,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType, <span class="keyword">typename</span> WeightType&gt;</div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> VectorType&gt;</div>
 <div class="foldopen" id="foldopen00165" data-start="{" data-end="}">
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a0fd3ab40dc0fc4ed979f319e8803e590">  165</a></span><a class="code hl_function" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a0fd3ab40dc0fc4ed979f319e8803e590">UniformWeightedDist&lt;OutType, WeightType&gt;::UniformWeightedDist</a>(<span class="keyword">const</span> VectorType &amp;weights)</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    : weights_(weights), distribution_(weights.begin(), weights.end())</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a0fd3ab40dc0fc4ed979f319e8803e590">  165</a></span><a class="code hl_function" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a0fd3ab40dc0fc4ed979f319e8803e590">UniformWeightedDist&lt;OutType, WeightType&gt;::UniformWeightedDist</a>(<span class="keyword">const</span> <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">VectorType</a> &amp;<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>)</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    : weights_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>), distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>.begin(), <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>.end())</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>{</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>}</div>
 </div>
@@ -224,8 +224,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutType, <span class="keyword">typename</span> WeightType&gt;</div>
 <div class="foldopen" id="foldopen00171" data-start="{" data-end="}">
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a20c1193b3b99b00f4f4cca831d45ef91">  171</a></span><a class="code hl_function" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a0fd3ab40dc0fc4ed979f319e8803e590">UniformWeightedDist&lt;OutType, WeightType&gt;::UniformWeightedDist</a>(</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    std::initializer_list&lt;WeightType&gt; weights)</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    : weights_(weights), distribution_(weights)</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    std::initializer_list&lt;WeightType&gt; <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>)</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    : weights_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>), distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">weights</a>)</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>{</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>}</div>
 </div>
@@ -237,11 +237,11 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>{</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="comment">// a seed source for the random number engine</span></div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    std::random_device rd;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    std::random_device <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">rd</a>;</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="comment">// mersenne_twister_engine seeded with rd()</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    std::mt19937 gen(rd());</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordflow">return</span> distribution_(gen);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    std::mt19937 <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">rd</a>());</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordflow">return</span> distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>);</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>}</div>
 </div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
@@ -251,8 +251,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#afda99ae87d78e82f9038f2dd7dc54083">  192</a></span><a class="code hl_function" href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a14c33971e68ceea9a1c3b727fe411462">UniformWeightedDist&lt;OutType, WeightType&gt;::sample</a>(<a class="code hl_typedef" href="namespacebitrl.html#a84c96b350ee9feed7262273146a5ad11">uint_t</a> seed)</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>{</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="comment">// mersenne_twister_engine seeded with seed</span></div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    std::mt19937 gen(seed);</div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="keywordflow">return</span> distribution_(gen);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    std::mt19937 <a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>(seed);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="keywordflow">return</span> distribution_(<a class="code hl_function" href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">gen</a>);</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>}</div>
 </div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
@@ -271,6 +271,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist_html_a508f27ca0f530499a2ebfa4655f0a18a"><div class="ttname"><a href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#a508f27ca0f530499a2ebfa4655f0a18a">bitrl::utils::maths::stats::UniformWeightedDist::probabilities</a></div><div class="ttdeci">std::vector&lt; real_t &gt; probabilities() const</div><div class="ttdef"><b>Definition</b> uniform_distribution.h:156</div></div>
 <div class="ttc" id="aclassbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist_html_acaa6162aa3367d00924bd996c82fd84e"><div class="ttname"><a href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acaa6162aa3367d00924bd996c82fd84e">bitrl::utils::maths::stats::UniformWeightedDist::weights_type</a></div><div class="ttdeci">std::vector&lt; WeightType &gt; weights_type</div><div class="ttdef"><b>Definition</b> uniform_distribution.h:129</div></div>
 <div class="ttc" id="aclassbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist_html_acc58689d6b9f6bc903d215ec1222c22c"><div class="ttname"><a href="classbitrl_1_1utils_1_1maths_1_1stats_1_1UniformWeightedDist.html#acc58689d6b9f6bc903d215ec1222c22c">bitrl::utils::maths::stats::UniformWeightedDist::out_type</a></div><div class="ttdeci">OutType out_type</div><div class="ttdef"><b>Definition</b> uniform_distribution.h:128</div></div>
+<div class="ttc" id="anamespacebitrl_1_1utils_html_abb0e18993a34ce35a46ca30727c162b5"><div class="ttname"><a href="namespacebitrl_1_1utils.html#abb0e18993a34ce35a46ca30727c162b5">bitrl::utils::resolve</a></div><div class="ttdeci">OutT resolve(const std::string &amp;name, const std::map&lt; std::string, std::any &gt; &amp;input)</div><div class="ttdef"><b>Definition</b> std_map_utils.h:25</div></div>
 <div class="ttc" id="anamespacebitrl_html"><div class="ttname"><a href="namespacebitrl.html">bitrl</a></div><div class="ttdef"><b>Definition</b> bitrl_consts.h:13</div></div>
 <div class="ttc" id="anamespacebitrl_html_a0cac0d7ccc6723231e71a79a903283e6"><div class="ttname"><a href="namespacebitrl.html#a0cac0d7ccc6723231e71a79a903283e6">bitrl::int_t</a></div><div class="ttdeci">int int_t</div><div class="ttdoc">integer type</div><div class="ttdef"><b>Definition</b> bitrl_types.h:33</div></div>
 <div class="ttc" id="anamespacebitrl_html_a2cfbf420e06429f24937971c0d91d51c"><div class="ttname"><a href="namespacebitrl.html#a2cfbf420e06429f24937971c0d91d51c">bitrl::lint_t</a></div><div class="ttdeci">long int lint_t</div><div class="ttdoc">long int type</div><div class="ttdef"><b>Definition</b> bitrl_types.h:38</div></div>

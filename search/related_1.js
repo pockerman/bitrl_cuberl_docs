@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basic_5fjson_0',['basic_json',['../classjson__pointer.html#ada3100cdb8700566051828f1355fa745',1,'json_pointer']]]
+  ['operator_3d_3d_0',['operator==',['../classbitrl_1_1FilteredIterator.html#a6fb86a621cc6fa3c3c1826fba5868781',1,'bitrl::FilteredIterator']]]
 ];

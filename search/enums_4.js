@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gridworldactiontype_0',['GridWorldActionType',['../namespacebitrl_1_1envs_1_1grid__world.html#a40a325c845f1c84fa24cde939f26490b',1,'bitrl::envs::grid_world']]],
-  ['gridworldinittype_1',['GridWorldInitType',['../namespacebitrl_1_1envs_1_1grid__world.html#aaef458e69508f413265b6c0e04da225d',1,'bitrl::envs::grid_world']]]
+  ['policytype_0',['PolicyType',['../namespacecubeai_1_1rl_1_1policies.html#a33227468a31ec23550a5c26b4ce12fb0',1,'cubeai::rl::policies']]]
 ];

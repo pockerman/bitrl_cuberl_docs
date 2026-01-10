@@ -126,21 +126,21 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> reset()noexcept;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    template&lt;typename T, uint_t index&gt;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_namespace" href="namespacestd.html">std</a>::vector&lt;T&gt; </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    get(const <a class="code hl_namespace" href="namespacestd.html">std</a>::vector&lt;experience_tuple_type&gt;&amp; experience)const;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::vector&lt;T&gt; </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    get(const std::vector&lt;experience_tuple_type&gt;&amp; experience)const;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>template&lt;typename ActionType, typename StateType&gt;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>template&lt;typename T, uint_t index&gt;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><a class="code hl_namespace" href="namespacestd.html">std</a>::vector&lt;T&gt; </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>A2CMonitor&lt;ActionType, StateType&gt;::get(const <a class="code hl_namespace" href="namespacestd.html">std</a>::vector&lt;experience_tuple_type&gt;&amp; experience)<span class="keyword">const</span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>std::vector&lt;T&gt; </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>A2CMonitor&lt;ActionType, StateType&gt;::get(const std::vector&lt;experience_tuple_type&gt;&amp; experience)<span class="keyword">const</span>{</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    std::vector&lt;T&gt; result;</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    result.reserve(experience.size());</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">auto</span> b = experience.begin();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">auto</span> b = experience.<a class="code hl_function" href="classcuberl_1_1containers_1_1ExperienceBuffer.html#ad4a2f593a3aa1f7d855343e81e5f5df5">begin</a>();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">auto</span> e = experience.end();</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordflow">for</span>(; b != e; ++b){</div>
@@ -171,11 +171,11 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclasscuberl_1_1containers_1_1ExperienceBuffer_html"><div class="ttname"><a href="classcuberl_1_1containers_1_1ExperienceBuffer.html">cuberl::containers::ExperienceBuffer</a></div><div class="ttdoc">The ExperienceBuffer class. A buffer based on boost::circular_buffer to accumulate items of type Expe...</div><div class="ttdef"><b>Definition</b> experience_buffer.h:26</div></div>
+<div class="ttc" id="aclasscuberl_1_1containers_1_1ExperienceBuffer_html_ad4a2f593a3aa1f7d855343e81e5f5df5"><div class="ttname"><a href="classcuberl_1_1containers_1_1ExperienceBuffer.html#ad4a2f593a3aa1f7d855343e81e5f5df5">cuberl::containers::ExperienceBuffer::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition</b> experience_buffer.h:118</div></div>
 <div class="ttc" id="acubeai__types_8h_html"><div class="ttname"><a href="cubeai__types_8h.html">cubeai_types.h</a></div></div>
 <div class="ttc" id="aexperience__buffer_8h_html"><div class="ttname"><a href="experience__buffer_8h.html">experience_buffer.h</a></div></div>
 <div class="ttc" id="anamespacebitrl_html_a2f4504e90084ab8d017fb11d685b01bb"><div class="ttname"><a href="namespacebitrl.html#a2f4504e90084ab8d017fb11d685b01bb">bitrl::real_t</a></div><div class="ttdeci">double real_t</div><div class="ttdoc">real_t</div><div class="ttdef"><b>Definition</b> bitrl_types.h:23</div></div>
 <div class="ttc" id="anamespacecuberl_html"><div class="ttname"><a href="namespacecuberl.html">cuberl</a></div><div class="ttdoc">Various utilities used when working with RL problems.</div><div class="ttdef"><b>Definition</b> cubeai_types.h:16</div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> json.hpp:5363</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['devicetype_0',['DeviceType',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26',1,'bitrl']]],
-  ['dynamicversion_1',['DynamicVersion',['../classbitrl_1_1dynamics_1_1DiffDriveDynamics.html#a77a50c5ffa0b024b68d3a8326a87c482',1,'bitrl::dynamics::DiffDriveDynamics']]]
+  ['epsilondecayoption_0',['EpsilonDecayOption',['../namespacecuberl_1_1rl_1_1policies.html#a8cf3e60a8dae19acb81f9dd6ef8d445c',1,'cuberl::rl::policies']]]
 ];

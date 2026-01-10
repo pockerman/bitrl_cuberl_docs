@@ -1,7 +1,0 @@
-<map id="http::Response" name="http::Response">
-<area shape="rect" id="Node000001" title=" " alt="" coords="12,181,131,207"/>
-<area shape="rect" id="Node000002" href="$structhttp_1_1Status.html" title=" " alt="" coords="23,93,120,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,133,74,181,69,181,69,133"/>
-<area shape="rect" id="Node000003" href="$structhttp_1_1HttpVersion.html" title=" " alt="" coords="5,5,137,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,45,74,93,69,93,69,45"/>
-</map>

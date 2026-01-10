@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['jx_0',['Jx',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#aa7395d281197ca55b3fd4fb7e9145c43',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]],
-  ['jy_1',['Jy',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#aa7c5dc635a68f889c97b0f600c87e51e',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]],
-  ['jz_2',['Jz',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#aa620052f46f61a335a2d29a5bb8282d2',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]]
+  ['k_0',['K',['../structcuberl_1_1estimation_1_1KalmanFilterConfig.html#a3808ed2e100c12f6e2d3b68b4f81323f',1,'cuberl::estimation::KalmanFilterConfig']]],
+  ['k_5f1_1',['k_1',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#a1151152e6fa5985788dcd0170fbbee51',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]],
+  ['k_5f2_2',['k_2',['../structbitrl_1_1dynamics_1_1QuadrotorDynamicsConfig.html#af04b76cee67613fbfe778eb93a2e29e3',1,'bitrl::dynamics::QuadrotorDynamicsConfig']]]
 ];

@@ -85,13 +85,13 @@ $(document).ready(function() { init_codefold(0); });
 <a href="epsilon__decay__options_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef EPSILON_DECAY_OPTIONS_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define EPSILON_DECAY_OPTIONS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="enum_8h.html">cuberl/extern/enum.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;cuberl/extern/enum.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecuberl.html">cuberl</a> {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span>rl {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespacecuberl_1_1rl.html#ab98abed892f00c923f2870caab5d4c03">   13</a></span><a class="code hl_define" href="enum_8h.html#a47df33c8d3d71e48df5272f4df0ac4d9">BETTER_ENUM</a>(EpsilonDecayOptionType, <span class="keywordtype">char</span>, <a class="code hl_enumvalue" href="namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3">INVALID_TYPE</a>=0, NONE, EXPONENTIAL, INVERSE_STEP, CONSTANT_RATE);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespacecuberl_1_1rl.html#ab98abed892f00c923f2870caab5d4c03">   13</a></span><a class="code hl_function" href="namespacecuberl_1_1rl.html#ab98abed892f00c923f2870caab5d4c03">BETTER_ENUM</a>(EpsilonDecayOptionType, <span class="keywordtype">char</span>, <a class="code hl_enumvalue" href="namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3">INVALID_TYPE</a>=0, NONE, EXPONENTIAL, INVERSE_STEP, CONSTANT_RATE);</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
@@ -104,10 +104,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">// EPSILON_DECAY_OPTIONS_H</span></div>
-<div class="ttc" id="aenum_8h_html"><div class="ttname"><a href="enum_8h.html">enum.h</a></div></div>
-<div class="ttc" id="aenum_8h_html_a47df33c8d3d71e48df5272f4df0ac4d9"><div class="ttname"><a href="enum_8h.html#a47df33c8d3d71e48df5272f4df0ac4d9">BETTER_ENUM</a></div><div class="ttdeci">#define BETTER_ENUM(Enum, Underlying,...)</div><div class="ttdef"><b>Definition</b> enum.h:1218</div></div>
 <div class="ttc" id="anamespacebitrl_html_ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3"><div class="ttname"><a href="namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3">bitrl::DeviceType::INVALID_TYPE</a></div><div class="ttdeci">@ INVALID_TYPE</div></div>
 <div class="ttc" id="anamespacecuberl_1_1rl_html_a8f9701db9bb1aaa269e53f170c5bd99c"><div class="ttname"><a href="namespacecuberl_1_1rl.html#a8f9701db9bb1aaa269e53f170c5bd99c">cuberl::rl::to_string</a></div><div class="ttdeci">std::string to_string(EpsilonDecayOptionType type)</div><div class="ttdoc">to_string. Returns the RenderModeType to its stringrepresentation</div><div class="ttdef"><b>Definition</b> epsilon_decay_options.h:22</div></div>
+<div class="ttc" id="anamespacecuberl_1_1rl_html_ab98abed892f00c923f2870caab5d4c03"><div class="ttname"><a href="namespacecuberl_1_1rl.html#ab98abed892f00c923f2870caab5d4c03">cuberl::rl::BETTER_ENUM</a></div><div class="ttdeci">BETTER_ENUM(EpsilonDecayOptionType, char, INVALID_TYPE=0, NONE, EXPONENTIAL, INVERSE_STEP, CONSTANT_RATE)</div><div class="ttdoc">The RenderModeType enum.</div></div>
 <div class="ttc" id="anamespacecuberl_html"><div class="ttname"><a href="namespacecuberl.html">cuberl</a></div><div class="ttdoc">Various utilities used when working with RL problems.</div><div class="ttdef"><b>Definition</b> cubeai_types.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

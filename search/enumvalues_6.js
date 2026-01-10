@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['gatewaytimeout_0',['GatewayTimeout',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a1daa1a380fbc9e68c64b4a82542090fb',1,'http::Status']]],
-  ['goal_1',['GOAL',['../namespacebitrl_1_1envs_1_1grid__world_1_1detail.html#a1e882c11a4d5f75523f1f3a2cd440f01aa44f0f47307a84c47d1f82e7a64c8757',1,'bitrl::envs::grid_world::detail']]],
-  ['gone_2',['Gone',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01ad33df506add1d074a091070018fbaca8',1,'http::Status']]],
-  ['gpu_3',['GPU',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a52f9ec21735243ad9917cda3ca077d32',1,'bitrl']]]
+  ['hex_0',['HEX',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603a58c9566f3c750ce7147b045fdd14202b',1,'bitrl::utils::geom::ElementType']]],
+  ['hex20_1',['HEX20',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a15d87c5b18bc3f98ff7455ecea016176',1,'bitrl::utils::geom::ElementType']]],
+  ['hex8_2',['HEX8',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a0e18237fd06200d8e186037623096cce',1,'bitrl::utils::geom::ElementType']]]
 ];

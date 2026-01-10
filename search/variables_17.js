@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['x_0',['x',['../structdetail_1_1is__ordered__map_1_1two.html#a762e0d409e9c4f003df0638c04dfa3c8',1,'detail::is_ordered_map::two::x'],['../structbitrl_1_1rigid__bodies_1_1RBRotation.html#a9d96c6d893a5ce9371adab4274479cbe',1,'bitrl::rigid_bodies::RBRotation::x'],['../structbitrl_1_1rigid__bodies_1_1RBTranslation.html#a858263f8788c5a882a0d66083372a032',1,'bitrl::rigid_bodies::RBTranslation::x'],['../structbitrl_1_1sensors_1_1OdometryMessage.html#add8da3754df3e480f3ce4070925a8b7e',1,'bitrl::sensors::OdometryMessage::x']]]
+  ['y_0',['y',['../structbitrl_1_1rigid__bodies_1_1RBRotation.html#ab5463213f9d4c8f60feed35f097780e9',1,'bitrl::rigid_bodies::RBRotation::y'],['../structbitrl_1_1rigid__bodies_1_1RBTranslation.html#a01fc54fe43c5cd6ee4e53bad95e25253',1,'bitrl::rigid_bodies::RBTranslation::y'],['../structbitrl_1_1sensors_1_1OdometryMessage.html#a0eb532cc2417243eb83b0323705d2b39',1,'bitrl::sensors::OdometryMessage::y']]],
+  ['yaw_1',['yaw',['../structbitrl_1_1sensors_1_1OdometryMessage.html#aa424b35536afa2065d18f7bded1309a6',1,'bitrl::sensors::OdometryMessage']]]
 ];

@@ -85,7 +85,7 @@ $(document).ready(function() { init_codefold(0); });
 <a href="optimizer__type_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef OPTIMIZER_TYPE_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define OPTIMIZER_TYPE_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="enum_8h.html">cuberl/extern/enum.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;cuberl/extern/enum.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecuberl.html">cuberl</a> {</div>
@@ -93,7 +93,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="foldopen" id="foldopen00009" data-start="{" data-end="}">
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="namespacecuberl_1_1maths_1_1optim.html">    9</a></span><span class="keyword">namespace </span>optim{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="namespacecuberl_1_1maths_1_1optim.html#a63bee4a466b16df10f546c88ff9bdc91">   14</a></span><a class="code hl_define" href="enum_8h.html#a47df33c8d3d71e48df5272f4df0ac4d9">BETTER_ENUM</a>(OptimzerType, <span class="keywordtype">char</span>, <a class="code hl_enumvalue" href="namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3">INVALID_TYPE</a>=-1, GD=0, SGD, ADAM, RSPROP);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="namespacecuberl_1_1maths_1_1optim.html#a63bee4a466b16df10f546c88ff9bdc91">   14</a></span><a class="code hl_function" href="namespacecuberl_1_1maths_1_1optim.html#a63bee4a466b16df10f546c88ff9bdc91">BETTER_ENUM</a>(OptimzerType, <span class="keywordtype">char</span>, <a class="code hl_enumvalue" href="namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3">INVALID_TYPE</a>=-1, GD=0, SGD, ADAM, RSPROP);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">inline</span></div>
@@ -112,11 +112,10 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif </span><span class="comment">// OPTIMIZER_TYPE_H</span></div>
-<div class="ttc" id="aenum_8h_html"><div class="ttname"><a href="enum_8h.html">enum.h</a></div></div>
-<div class="ttc" id="aenum_8h_html_a47df33c8d3d71e48df5272f4df0ac4d9"><div class="ttname"><a href="enum_8h.html#a47df33c8d3d71e48df5272f4df0ac4d9">BETTER_ENUM</a></div><div class="ttdeci">#define BETTER_ENUM(Enum, Underlying,...)</div><div class="ttdef"><b>Definition</b> enum.h:1218</div></div>
 <div class="ttc" id="anamespacebitrl_html_ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3"><div class="ttname"><a href="namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a092170c04de9552a6503565e95b25ca3">bitrl::DeviceType::INVALID_TYPE</a></div><div class="ttdeci">@ INVALID_TYPE</div></div>
 <div class="ttc" id="anamespacecuberl_1_1maths_1_1optim_html_a446a1ca3ebb199bf99efc25dee7abfec"><div class="ttname"><a href="namespacecuberl_1_1maths_1_1optim.html#a446a1ca3ebb199bf99efc25dee7abfec">cuberl::maths::optim::compare</a></div><div class="ttdeci">constexpr bool compare(OptimzerType tp1, OptimzerType tp2)</div><div class="ttdef"><b>Definition</b> optimizer_type.h:25</div></div>
 <div class="ttc" id="anamespacecuberl_1_1maths_1_1optim_html_a4bbb4e34abbd988582412daa1318179d"><div class="ttname"><a href="namespacecuberl_1_1maths_1_1optim.html#a4bbb4e34abbd988582412daa1318179d">cuberl::maths::optim::to_string</a></div><div class="ttdeci">std::string to_string(OptimzerType type)</div><div class="ttdoc">to_string. Returns the RenderModeType to its stringrepresentation</div><div class="ttdef"><b>Definition</b> optimizer_type.h:22</div></div>
+<div class="ttc" id="anamespacecuberl_1_1maths_1_1optim_html_a63bee4a466b16df10f546c88ff9bdc91"><div class="ttname"><a href="namespacecuberl_1_1maths_1_1optim.html#a63bee4a466b16df10f546c88ff9bdc91">cuberl::maths::optim::BETTER_ENUM</a></div><div class="ttdeci">BETTER_ENUM(OptimzerType, char, INVALID_TYPE=-1, GD=0, SGD, ADAM, RSPROP)</div><div class="ttdoc">The RenderModeType enum.</div></div>
 <div class="ttc" id="anamespacecuberl_html"><div class="ttname"><a href="namespacecuberl.html">cuberl</a></div><div class="ttdoc">Various utilities used when working with RL problems.</div><div class="ttdef"><b>Definition</b> cubeai_types.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structbitrl_1_1boards_1_1arduino_1_1ArduinoCMDBase.html" title=" " alt="" coords="5,5,163,45"/>
+<area shape="rect" id="Node000000" href="$structbitrl_1_1envs_1_1ContinuousVectorStateContinuousScalarBoundedActionEnv.html" title=" " alt="" coords="5,20,272,89"/>
+<area shape="rect" id="Node000001" href="$classbitrl_1_1envs_1_1EnvBase.html" title=" " alt="" coords="320,5,611,104"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="286,52,320,52,320,57,286,57"/>
 </map>

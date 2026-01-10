@@ -95,7 +95,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespacecubeai_1_1containers.html">   10</a></span><span class="keyword">namespace </span>containers {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespacecubeai_1_1containers_1_1detail.html">   12</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacedetail.html">detail</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespacecubeai_1_1containers_1_1detail.html">   12</a></span><span class="keyword">namespace </span>detail</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
@@ -190,7 +190,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="foldopen" id="foldopen00156" data-start="{" data-end="}">
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="classcubeai_1_1containers_1_1FixedSizeMaxPriorityQueue.html#a839b91cd63e1f5e69843261c7dc90a78">  156</a></span><a class="code hl_class" href="classcubeai_1_1containers_1_1FixedSizeMaxPriorityQueue.html">FixedSizeMaxPriorityQueue</a>&lt;T, Compare, Container&gt;::<a class="code hl_class" href="classcubeai_1_1containers_1_1FixedSizeMaxPriorityQueue.html">FixedSizeMaxPriorityQueue</a>(uint_t max_size) noexcept</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    :</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <a class="code hl_namespace" href="namespacedetail.html">detail</a>::<a class="code hl_function" href="classcubeai_1_1containers_1_1detail_1_1priority__queue__common.html#a35ad05b9e504d0f2c202d0f95997edbd">priority_queue_common</a>&lt;T, Container&gt;(max_size),</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    detail::<a class="code hl_function" href="classcubeai_1_1containers_1_1detail_1_1priority__queue__common.html#a35ad05b9e504d0f2c202d0f95997edbd">priority_queue_common</a>&lt;T, Container&gt;(max_size),</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    value_cp_()</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>{}</div>
 </div>
@@ -279,7 +279,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="foldopen" id="foldopen00255" data-start="{" data-end="}">
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="classcubeai_1_1containers_1_1FixedSizeMinPriorityQueue.html#aa3f2905444d91106f98bb1293d92b055">  255</a></span><a class="code hl_class" href="classcubeai_1_1containers_1_1FixedSizeMinPriorityQueue.html">FixedSizeMinPriorityQueue</a>&lt;T, Compare, Container&gt;::<a class="code hl_class" href="classcubeai_1_1containers_1_1FixedSizeMinPriorityQueue.html">FixedSizeMinPriorityQueue</a>(uint_t max_size) noexcept</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    :</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    <a class="code hl_namespace" href="namespacedetail.html">detail</a>::priority_queue_common&lt;T, Container&gt;(max_size),</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>    detail::priority_queue_common&lt;T, Container&gt;(max_size),</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    value_cp_()</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>{}</div>
 </div>
@@ -377,7 +377,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclasscubeai_1_1containers_1_1detail_1_1priority__queue__common_html_adb949b4fe84886284a693ab2b9f1a4ca"><div class="ttname"><a href="classcubeai_1_1containers_1_1detail_1_1priority__queue__common.html#adb949b4fe84886284a693ab2b9f1a4ca">cubeai::containers::detail::priority_queue_common::top</a></div><div class="ttdeci">const value_type &amp; top() const</div><div class="ttdoc">top</div><div class="ttdef"><b>Definition</b> fixed_size_priority_queue.h:57</div></div>
 <div class="ttc" id="aclasscubeai_1_1containers_1_1detail_1_1priority__queue__common_html_aef6cdd1a495905848cb8de2fa3889caa"><div class="ttname"><a href="classcubeai_1_1containers_1_1detail_1_1priority__queue__common.html#aef6cdd1a495905848cb8de2fa3889caa">cubeai::containers::detail::priority_queue_common::size</a></div><div class="ttdeci">uint_t size() const noexcept</div><div class="ttdoc">size</div><div class="ttdef"><b>Definition</b> fixed_size_priority_queue.h:39</div></div>
 <div class="ttc" id="anamespacecubeai_html"><div class="ttname"><a href="namespacecubeai.html">cubeai</a></div><div class="ttdef"><b>Definition</b> pure_pursuit_path_tracker.h:13</div></div>
-<div class="ttc" id="anamespacedetail_html"><div class="ttname"><a href="namespacedetail.html">detail</a></div><div class="ttdoc">detail namespace with internal helper functions</div><div class="ttdef"><b>Definition</b> json.hpp:249</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

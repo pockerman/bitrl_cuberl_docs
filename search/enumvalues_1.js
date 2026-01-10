@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['badgateway_0',['BadGateway',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a8f545bf464316553cf967d3def3e39b6',1,'http::Status']]],
-  ['badrequest_1',['BadRequest',['../structhttp_1_1Status.html#af67fe5faedb1ae36130c1f0379e81e01a5a7aa146a271fa6713c4597be78f128e',1,'http::Status']]],
-  ['batch_2',['BATCH',['../namespacecuberl_1_1utils.html#a7a41576e03f61d405f50fd16009f4975a3dba7f2d2578ffb4bd657af94b1add80',1,'cuberl::utils']]],
-  ['begin_5farray_3',['begin_array',['../classdetail_1_1lexer__base.html#add65fa7a85aa15052963809fbcc04540a16c226b4425b68560fea322b46dabe01',1,'detail::lexer_base']]],
-  ['begin_5fobject_4',['begin_object',['../classdetail_1_1lexer__base.html#add65fa7a85aa15052963809fbcc04540a9a9ffd53b6869d4eca271b1ed5b57fe8',1,'detail::lexer_base']]],
-  ['binary_5',['binary',['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632a9d7183f16acce70658f686ae7f1a4d20',1,'detail']]],
-  ['boolean_6',['boolean',['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632a84e2c64f38f78ba3ea5c905ab5a2da27',1,'detail']]]
+  ['camera_0',['CAMERA',['../namespacebitrl_1_1sensors.html#ab91c80b9dbf1cf63bd914cf5ade41b17addf0d6b21537d984fea6544f58101fa8',1,'bitrl::sensors']]],
+  ['constant_1',['CONSTANT',['../namespacecuberl_1_1rl_1_1algos_1_1pg.html#ad045e6a427e393e8b1ae67c87753bae6a8d6b5cada83510220f59e00ce86d4d92',1,'cuberl::rl::algos::pg']]],
+  ['constant_5frate_2',['CONSTANT_RATE',['../namespacecuberl_1_1rl_1_1policies.html#a8cf3e60a8dae19acb81f9dd6ef8d445ca222929d4b1475b20f1f3eb36d929cadd',1,'cuberl::rl::policies']]],
+  ['cpu_3',['CPU',['../namespacebitrl.html#ac5500d0e4543f0036e7d0d63c3c22b26a2b55387dd066c5bac646ac61543d152d',1,'bitrl']]],
+  ['csv_4',['CSV',['../structbitrl_1_1utils_1_1io_1_1FileFormats.html#a34f605d88df9d54b3c9aecd7fc7d8d1cacc8d68c551c4a9a6d5313e07de4deafd',1,'bitrl::utils::io::FileFormats']]]
 ];

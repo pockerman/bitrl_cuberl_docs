@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['discarded_0',['discarded',['../namespacedetail.html#a917c3efabea8a20dc72d9ae2c673d632a94708897ec9db8647dfe695714c98e46',1,'detail']]],
-  ['discrete_5funiform_1',['DISCRETE_UNIFORM',['../namespacecubeai_1_1rl_1_1policies.html#a33227468a31ec23550a5c26b4ce12fb0a0c4e9422a0ee762d9a66a8e7f3485d7f',1,'cubeai::rl::policies']]],
-  ['down_2',['DOWN',['../namespacebitrl_1_1envs_1_1grid__world.html#a40a325c845f1c84fa24cde939f26490bac4e0e4e3118472beeb2ae75827450f1f',1,'bitrl::envs::grid_world']]]
+  ['edge_0',['EDGE',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4f9fed1484092a0a9f6501b120b91603a6563b7570ee4add31ffc4e94fa86b6fb',1,'bitrl::utils::geom::ElementType']]],
+  ['edge2_1',['EDGE2',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066abc1cf7a62c898cc7707f3b49ed98a012',1,'bitrl::utils::geom::ElementType']]],
+  ['edge3_2',['EDGE3',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a81d5ba7fdf154bb4ff3c2de90693717a',1,'bitrl::utils::geom::ElementType']]],
+  ['edge4_3',['EDGE4',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a2677d3ed4cf254e2b10f76812420005c',1,'bitrl::utils::geom::ElementType']]],
+  ['edge5_4',['EDGE5',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a35b56141f7417c206ec3e9bb43144311',1,'bitrl::utils::geom::ElementType']]],
+  ['edge6_5',['EDGE6',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a767bba38b5cd8989d3b393778b1803c1',1,'bitrl::utils::geom::ElementType']]],
+  ['edge7_6',['EDGE7',['../structbitrl_1_1utils_1_1geom_1_1ElementType.html#a4977dbd51f4dcb86460ff8fb2ea94066a09cdc711149e462d8241edc2e42b9fe9',1,'bitrl::utils::geom::ElementType']]],
+  ['exponential_7',['EXPONENTIAL',['../namespacecuberl_1_1rl_1_1policies.html#a8cf3e60a8dae19acb81f9dd6ef8d445cadcd5fc33e211f31cef0cd7cb36518d31',1,'cuberl::rl::policies']]]
 ];
