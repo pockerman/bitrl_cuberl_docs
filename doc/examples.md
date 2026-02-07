@@ -19,5 +19,6 @@ This section contains practical examples demonstrating how to use _bitrl_ and _c
 ## cuberl examples
 
 - \ref cuberl_example_1
-- \ref cuberl_example_9
-- \ref cuberl_example_10
+- \ref cuberl_example_8
+- \ref cuberl_example_13
+- \ref cuberl_example_14
