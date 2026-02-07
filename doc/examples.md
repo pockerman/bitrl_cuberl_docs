@@ -11,6 +11,7 @@ This section contains practical examples demonstrating how to use _bitrl_ and _c
 - \ref bitrl_example_3
 - \ref bitrl_example_4
 - \ref bitrl_example_11
+- \ref bitrl_example_13
 - \ref bitrl_example_14
 - \ref bitrl_example_21
 - \ref bitrl_example_22
