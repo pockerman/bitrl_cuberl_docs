@@ -8,42 +8,11 @@ using  C++. You can find a very basic example here \ref bitrl_example_1.
 Gymnasium environments exposed over a REST like API can be found at: <a href="https://github.com/pockerman/bitrl-rest-api">bitrl-rest-api</a>.
 Various RL algorithms using the environments can be found at <a href="https://github.com/pockerman/cuberl/tree/master">cuberl</a>.
 
-## Dependencies
-
-Below are the dependencies for the common dependencies for both libraries
-
-- CMake
-- Boost
-- Eigen3
-- Blas
-
-`bitrl` has the following dependencies: 
-
-- OpenCV (optional)
-- PahoMqttCpp (optional)
-- Chrono (optional)
-
-In addition the library uses 
-
-- <a href="https://github.com/nlohmann/json">json</a> (extern/nlhmann)
-- <a href="https://github.com/elnormous/HTTPRequest">HTTPRequest</a> (extern/)
-
-`cuberl` has the following dependencies:
-
-- OpenCV (optional)
-- PahoMqttCpp (optional)
-- Pytorch (optional)
-- Chrono (optional)
-
 ## Installation
 
-The usual cmake installation/build can be used:
-
-@code
-mkdir build && cd build
-cmake -DCMAKE_INSTALL_PREFIX=/path/where/bitrl/should/be/installed/to ..
-make install -j4
-@endcode
+- bitrl: \ref bitrl_install lists the dependencies and explains how to build and install the library.
+- cuberl needs bitrl and, optionally, OpenCV, PahoMqttCpp, PyTorch and Chrono. See the
+  <a href="https://github.com/pockerman/cuberl/tree/master">cuberl README</a>.
 
 ## Build the documentation
 
