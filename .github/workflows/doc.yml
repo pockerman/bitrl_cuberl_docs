@@ -1,12 +1,19 @@
 name: Build and Deploy Docs
 
+# The site is rebuilt on every push to main. Every night, and when started by
+# hand, the workflow first moves the bitrl and cuberl submodules to the latest
+# commit of their default branch, commits that to main, and rebuilds the site
+# if anything changed.
 on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,6 +24,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.update.outputs.deploy }}
 
     steps:
       - name: Checkout repository (with submodules)
@@ -24,30 +33,59 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Update bitrl and cuberl
+        id: update
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git submodule update --remote libs/bitrl libs/cuberl
+          if git diff --quiet; then
+            echo "bitrl and cuberl have not changed"
+            # A nightly run with nothing new has nothing to deploy
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "deploy=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "deploy=false" >> "$GITHUB_OUTPUT"
+            fi
+            exit 0
+          fi
+          git submodule status
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "docs: update bitrl and cuberl"
+          # Pushes made with the workflow token do not start this workflow again
+          git push
+          echo "deploy=true" >> "$GITHUB_OUTPUT"
+
       - name: Install dependencies
+        if: steps.update.outputs.deploy == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y doxygen graphviz
 
       - name: Build documentation with Doxygen
+        if: steps.update.outputs.deploy == 'true'
         run: |
           doxygen Doxyfile
 
       # Upload the generated HTML as a Pages artifact
       - name: Upload Pages artifact
+        if: steps.update.outputs.deploy == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs/html   # must match OUTPUT_DIRECTORY in Doxyfile
 
   deploy:
+    needs: build
+    if: needs.build.outputs.deploy == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
 
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
