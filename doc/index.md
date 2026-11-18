@@ -14,6 +14,12 @@ Various RL algorithms using the environments can be found at <a href="https://gi
 - cuberl needs bitrl and, optionally, OpenCV, PahoMqttCpp, PyTorch and Chrono. See the
   <a href="https://github.com/pockerman/cuberl/tree/master">cuberl README</a>.
 
+## Sensors
+
+\ref bitrl_sensors_guide lists the sensors bitrl supports: what each reads, its simulated and real
+backends, how the simulated ones are modelled and what the models leave out, and the MQTT messages
+of the real ones.
+
 ## Build the documentation
 
 The documentation is maintained on a different repository. However, you can build the documentation locally.
