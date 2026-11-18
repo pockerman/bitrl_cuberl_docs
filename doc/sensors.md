@@ -19,6 +19,11 @@ modelled and what that model leaves out, and the messages the real ones send.
 | \ref bitrl::sensors::IMUSensor "IMUSensor" | specific force and angular velocity | 6, [m/s²] and [rad/s] | \ref bitrl::sensors::backends::CHRONO_IMUBackend "CHRONO_IMUBackend" | \ref bitrl::sensors::backends::MQTT_IMUBackend "MQTT_IMUBackend" | `imu` |
 | \ref bitrl::sensors::DownwardCamera "DownwardCamera" | an image of the floor ahead | an image | itself, from a \ref bitrl::sensors::FloorImage "FloorImage" | | `front-camera` |
 | camera stream | images from a real camera | an image | | \ref bitrl::sensors::backends::MJPEG_HTTPCameraBackend "MJPEG_HTTPCameraBackend", MJPEG over HTTP | |
+| wheel encoders | the angle each wheel has turned | one per motor, [rad] | \ref bitrl::actuators::backends::SIM_DCMotorBackend "SIM_DCMotorBackend" | \ref bitrl::actuators::backends::MQTT_DCMotorBackend "MQTT_DCMotorBackend" | `motors` |
+
+The wheel encoders are part of the motors, not sensors of their own, and with
+\ref bitrl::estimation::DiffDriveOdometry "DiffDriveOdometry" they give the robot's pose; see
+\ref bitrl_sensors_odometry.
 
 What each needs when bitrl is built; \ref bitrl_install says how to build it:
 
@@ -28,14 +33,18 @@ What each needs when bitrl is built; \ref bitrl_install says how to build it:
 | the MQTT backends | `ENABLE_MQTT` |
 | \ref bitrl::sensors::DownwardCamera "DownwardCamera", \ref bitrl::sensors::FloorImage "FloorImage" | `ENABLE_OPENCV` |
 | \ref bitrl::sensors::backends::MJPEG_HTTPCameraBackend "MJPEG_HTTPCameraBackend" | `ENABLE_OPENCV`, and an OpenCV built with FFmpeg |
+| \ref bitrl::actuators::backends::SIM_DCMotorBackend "SIM_DCMotorBackend", \ref bitrl::estimation::DiffDriveOdometry "DiffDriveOdometry" | nothing; a robot that the motors drive needs `ENABLE_CHRONO` |
+| \ref bitrl::actuators::backends::MQTT_DCMotorBackend "MQTT_DCMotorBackend" | `ENABLE_MQTT` |
 
 The examples that use them:
 
 | Example | Sensors |
 | ------- | ------- |
+| \ref bitrl_example_30 | real motors on a board, whose encoders report over MQTT |
 | \ref bitrl_example_31 | the camera stream from a Raspberry Pi, and the robot's DownwardCamera |
 | \ref bitrl_example_32 | the infrared elements and the ultrasonic sensor |
 | \ref bitrl_example_33 | the IMU, with the sensors of example 32 |
+| \ref bitrl_example_34 | the wheel encoders for odometry, with the sensors of example 33 |
 
 ## How a sensor works
 
@@ -286,6 +295,111 @@ What the model leaves out:
 in m/s² and rad/s, along the axes of the IMU, which the board should line up with the robot's.
 Many IMUs report in g and deg/s, so the board converts. Until the first message the backend reads
 zeros. See \ref bitrl_sensors_mqtt.
+
+\anchor bitrl_sensors_odometry
+## Wheel encoders and odometry
+
+An encoder on a wheel's motor counts how far the wheel turns: a disc with slots, or magnets, on the
+shaft, and a sensor that counts them going by. The DC gear motors of the robot have one with 660
+counts a turn of the wheel, so it measures the wheel's angle in steps of \f$2\pi/660\f$, about
+half a degree. On a real robot the encoder is part of the motor and its board, so in bitrl it is
+part of the motor too: it is not a \ref bitrl::sensors::SensorBase "SensorBase".
+
+**Values:** \ref bitrl::actuators::DCMotor::encoder_angle "DCMotor::encoder_angle", the angle of
+the wheel as the encoder measures it [rad], counted from where it started. Read it for each wheel:
+
+@code{.cpp}
+const real_t left = robot.get_motor(CHRONO_DiffDriveRobot::LEFT)->encoder_angle();
+const real_t right = robot.get_motor(CHRONO_DiffDriveRobot::RIGHT)->encoder_angle();
+@endcode
+
+### The simulated encoder
+
+\ref bitrl::actuators::backends::SIM_DCMotorBackend "SIM_DCMotorBackend" takes the angle of the
+wheel from Chrono, the angle of the joint between the wheel and the chassis, and rounds it down to
+whole counts:
+
+\f[
+\theta_{enc} = \frac{2\pi}{N} \left\lfloor \frac{N \theta}{2\pi} \right\rfloor
+\f]
+
+with \f$N\f$ the counts a turn, `encoder_counts` in the `motors` section of the robot file. Its
+speed controller measures the speed from the same counts.
+
+What the model leaves out: it counts perfectly. A real encoder can miss counts at high speed or
+pick up noise as extra counts, and a cheap one has slots that are not evenly spaced.
+
+### The real encoder
+
+\ref bitrl::actuators::backends::MQTT_DCMotorBackend "MQTT_DCMotorBackend" takes the angle from
+the reports of the board that drives the motors,
+\ref bitrl::boards::arduino::DCArduinoBoardImpl "DCArduinoBoardImpl":
+
+@code
+{"ack": 12, "left_distance": 0.53, "right_distance": 0.52, "left_speed": 2.49, "right_speed": 2.51, "t_ms": 81234}
+@endcode
+
+The board turns its counts into the distance each wheel has rolled [m], and the backend divides by
+the wheel radius. The encoder angle is the angle the board last reported, counted from its first
+report; unlike `angle()`, which the backend smooths and predicts between reports for Chrono, it is
+not filtered. See \ref bitrl_example_30.
+
+### Odometry
+
+\ref bitrl::estimation::DiffDriveOdometry "DiffDriveOdometry" works out the pose of a
+differential drive robot from its encoders, by dead reckoning. Between two readings the left and
+right wheels turn by \f$\Delta\theta_L\f$ and \f$\Delta\theta_R\f$. With wheel radius \f$r\f$ and
+the wheels \f$L\f$ apart, the robot drives and turns by
+
+\f[
+\Delta s = \frac{r\,(\Delta\theta_L + \Delta\theta_R)}{2}, \qquad
+\Delta\psi = \frac{r\,(\Delta\theta_R - \Delta\theta_L)}{L}
+\f]
+
+and its pose moves along the heading halfway through the step:
+
+\f[
+x \mathrel{+}= \Delta s \cos\bar\psi, \qquad y \mathrel{+}= \Delta s \sin\bar\psi, \qquad
+\bar\psi = \psi + \tfrac{1}{2}\Delta\psi
+\f]
+
+The heading comes from the wheels, `update(left, right)`, or from another sensor,
+`update(left, right, heading)`, such as the gyroscope of the IMU above; then
+\f$\bar\psi\f$ is the mean of the last two headings. Start it with `reset(pose, left, right)` from
+where the robot is placed. `distance()` gives the length of the path driven.
+
+@code{.cpp}
+DiffDriveOdometry odometry(data.wheel_radius, data.axle_length);
+odometry.reset({x0, y0, yaw0}, left->encoder_angle(), right->encoder_angle());
+// every reading
+odometry.update(left->encoder_angle(), right->encoder_angle(), gyro_heading);
+@endcode
+
+Odometry adds up small steps, so its errors never go away:
+
+| Error | What it does |
+| ----- | ------------ |
+| counting | each reading is up to a count short. That does not add up: the next reading counts from the true angle again |
+| slip | a wheel that slips turns without moving the robot as far. Chrono makes the simulated wheels slip as real ones would; on the robot's floor, with friction 0.8 and at 0.3 m/s, they hardly do |
+| wheel radius | a radius off by a percent makes every distance off by a percent, whichever the heading comes from |
+| axle length | an axle length off by a percent makes every turn off by a percent, so the heading from the wheels drifts: after a full turn by \f$2\pi\f$ times that. It is hard to know better than a percent or two, because a tyre touches the floor over its width |
+
+A heading error is the worst, as every step after it goes a little the wrong way and the position
+error grows with the distance driven. A gyroscope's heading has none of the wheels' errors, so
+robots take their distance from the wheels and their heading from a gyroscope.
+\ref bitrl_example_34 runs both over a lap of 14 m:
+
+| Odometry | Exact geometry | Axle length 2 % off |
+| -------- | -------------- | ------------------- |
+| heading from the gyroscope | 3.0 cm off | 3.0 cm off |
+| heading from the wheels | 0.7 cm off, heading 0.08 deg off | 24 cm off, heading 7.1 deg off |
+
+With exact geometry and wheels that hardly slip, the simulation favours the wheels; with an axle
+length that is a little off, as on a real robot, the gyroscope wins.
+
+What `DiffDriveOdometry` leaves out: it gives a pose, not how uncertain the pose is. A filter
+that combines odometry with other sensors, such as
+\ref bitrl::estimation::ExtendedKalmanFilter "ExtendedKalmanFilter", needs that too.
 
 ## Downward camera
 
