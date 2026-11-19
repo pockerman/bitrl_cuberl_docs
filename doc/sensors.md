@@ -497,7 +497,8 @@ if (!result.accepted) { /* the gate kept it out, or there was nothing to use */ 
 
 The filter is built on \ref bitrl::estimation::ExtendedKalmanFilter "ExtendedKalmanFilter", which
 predicts with a motion model and updates with any number of observation models, each with its own
-noise and gate. \ref bitrl_example_ekf_sensor_fusion drives a lap of the track with odometry and
+noise and gate; \ref bitrl_example_ekf_sensor_fusion_mqtt runs it on readings that come over
+MQTT. \ref bitrl_example_ekf_sensor_fusion drives a lap of the track with odometry and
 the filter side by side. Off the true position, at most over the lap:
 
 | Run | Odometry | The filter |
@@ -558,10 +559,9 @@ bitrl's. A program with a few sensors spends some seconds starting.
 | Piece | What it is |
 | ----- | ---------- |
 | \ref bitrl::sensors::SensorManager "SensorManager" | keeps a list of sensors; `update()` reads all the enabled ones |
-| \ref bitrl::sensors::OdometryMessage "OdometryMessage" | `{"x": ..., "y": ..., "yaw": ..., "timestamp": ...}`, a pose estimate from a board |
+| \ref bitrl::sensors::OdometryMessage "OdometryMessage" | `{"x": ..., "y": ..., "yaw": ...}`, a pose estimate from a board, with an optional UTC `timestamp` |
 | \ref bitrl::sensors::CameraMessage "CameraMessage" | a base64 JPEG image, for a camera that publishes over MQTT |
 | \ref bitrl::sensors::EigenVectorMessage "EigenVectorMessage" | a vector of numbers as `[1.0, 2.0, ...]` |
-| \ref bitrl::sensors::EKFSensorFusion "EKFSensorFusion" | an extended Kalman filter that reads its inputs and sensor readings from MQTT topics; for the simulated robot, see \ref bitrl_sensors_fusion |
 
 ## Adding a sensor
 
