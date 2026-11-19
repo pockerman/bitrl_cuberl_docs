@@ -14,7 +14,7 @@ modelled and what that model leaves out, and the messages the real ones send.
 
 | Sensor | Measures | Values | Simulated by | Real, over | Robot file |
 | ------ | -------- | ------ | ------------ | ---------- | ---------- |
-| \ref bitrl::sensors::UltrasonicSensor "UltrasonicSensor" | distance to the nearest obstacle ahead | 1, [m] | \ref bitrl::sensors::backends::CHRONO_UltrasonicBackend "CHRONO_UltrasonicBackend" | \ref bitrl::sensors::backends::MQTT_UltrasonicBackend "MQTT_UltrasonicBackend" | `front-sonar` |
+| \ref bitrl::sensors::UltrasonicSensor "UltrasonicSensor" | distance to the nearest obstacle along its beam | 1, [m] | \ref bitrl::sensors::backends::CHRONO_UltrasonicBackend "CHRONO_UltrasonicBackend" | \ref bitrl::sensors::backends::MQTT_UltrasonicBackend "MQTT_UltrasonicBackend" | `front-sonar`, `rear-sonar` |
 | \ref bitrl::sensors::InfraredSensor "InfraredSensor" | reflectance of the floor under each element | one per element, in [0, 1] | \ref bitrl::sensors::backends::CHRONO_InfraredBackend "CHRONO_InfraredBackend" | \ref bitrl::sensors::backends::MQTT_InfraredBackend "MQTT_InfraredBackend" | `line-sensor` |
 | \ref bitrl::sensors::IMUSensor "IMUSensor" | specific force and angular velocity | 6, [m/s²] and [rad/s] | \ref bitrl::sensors::backends::CHRONO_IMUBackend "CHRONO_IMUBackend" | \ref bitrl::sensors::backends::MQTT_IMUBackend "MQTT_IMUBackend" | `imu` |
 | \ref bitrl::sensors::DownwardCamera "DownwardCamera" | an image of the floor ahead | an image | itself, from a \ref bitrl::sensors::FloorImage "FloorImage" | | `front-camera` |
@@ -23,7 +23,8 @@ modelled and what that model leaves out, and the messages the real ones send.
 
 The wheel encoders are part of the motors, not sensors of their own, and with
 \ref bitrl::estimation::DiffDriveOdometry "DiffDriveOdometry" they give the robot's pose; see
-\ref bitrl_sensors_odometry.
+\ref bitrl_sensors_odometry. \ref bitrl::estimation::DiffDriveEKF "DiffDriveEKF" fuses all of
+them; see \ref bitrl_sensors_fusion.
 
 What each needs when bitrl is built; \ref bitrl_install says how to build it:
 
@@ -35,6 +36,7 @@ What each needs when bitrl is built; \ref bitrl_install says how to build it:
 | \ref bitrl::sensors::backends::MJPEG_HTTPCameraBackend "MJPEG_HTTPCameraBackend" | `ENABLE_OPENCV`, and an OpenCV built with FFmpeg |
 | \ref bitrl::actuators::backends::SIM_DCMotorBackend "SIM_DCMotorBackend", \ref bitrl::estimation::DiffDriveOdometry "DiffDriveOdometry" | nothing; a robot that the motors drive needs `ENABLE_CHRONO` |
 | \ref bitrl::actuators::backends::MQTT_DCMotorBackend "MQTT_DCMotorBackend" | `ENABLE_MQTT` |
+| \ref bitrl::estimation::DiffDriveEKF "DiffDriveEKF" | nothing |
 
 The examples that use them:
 
@@ -47,6 +49,7 @@ The examples that use them:
 | \ref bitrl_example_line_following_infrared_sonar | the infrared elements and the ultrasonic sensor |
 | \ref bitrl_example_imu_heading | the IMU, with the sensors of the line following example |
 | \ref bitrl_example_wheel_odometry | the wheel encoders for odometry, with the sensors of the IMU example |
+| \ref bitrl_example_ekf_sensor_fusion | all of them, the camera, the infrared elements, both ultrasonic sensors, the IMU and the encoders, fused with an extended Kalman filter |
 
 ## How a sensor works
 
@@ -94,6 +97,7 @@ each one to the chassis, draws it in the Irrlicht window, enables it, and hands 
 | Section | `type` | Read back with |
 | ------- | ------ | -------------- |
 | `front-sonar` | `ultrasonic-range` | \ref bitrl::rb::bitrl_chrono::CHRONO_DiffDriveRobot::get_sonar "get_sonar" |
+| `rear-sonar` | `ultrasonic-range` | \ref bitrl::rb::bitrl_chrono::CHRONO_DiffDriveRobot::get_rear_sonar "get_rear_sonar" |
 | `line-sensor` | `infrared-array` | \ref bitrl::rb::bitrl_chrono::CHRONO_DiffDriveRobot::get_line_sensor "get_line_sensor" |
 | `imu` | `imu` | \ref bitrl::rb::bitrl_chrono::CHRONO_DiffDriveRobot::get_imu "get_imu" |
 | `front-camera` | `downward-camera` | \ref bitrl::rb::bitrl_chrono::CHRONO_DiffDriveRobot::get_camera "get_camera" |
@@ -115,7 +119,7 @@ distance to the nearest thing that reflects the sound in a cone in front of it.
 
 \ref bitrl::sensors::backends::CHRONO_UltrasonicBackend "CHRONO_UltrasonicBackend" casts rays
 into the Chrono world with its collision system. The sensor sits at `frame_pos` on its body and
-looks along the body's x axis. It casts `n_rays` rays fanned evenly across `beam_angle` in the
+looks along the body's x axis turned by `yaw` about z: 0 ahead, 180 behind. It casts `n_rays` rays fanned evenly across `beam_angle` in the
 body's x-y plane, and reads the distance to the nearest hit:
 
 \f[
@@ -123,16 +127,21 @@ d = \mathrm{clamp}\left(\min_{k} d_k,\ d_{\min},\ d_{\max}\right),
 \qquad \theta_k = \beta \left(\frac{k}{n - 1} - \frac{1}{2}\right),\ k = 0 \dots n-1
 \f]
 
-where \f$d_k\f$ is the distance along ray \f$k\f$, at angle \f$\theta_k\f$ from the axis, to the
+where \f$d_k\f$ is the distance along ray \f$k\f$, at angle \f$\theta_k\f$ from where it looks, to the
 first body it hits, and \f$\beta\f$ is the beam angle. With one ray, the default, it looks
 straight ahead only.
 
 | Setting | Robot file | Meaning |
 | ------- | ---------- | ------- |
 | position | `frame_pos` (or `mounted_position`) | where it is on the body [m] |
+| direction | `yaw` | where it looks, about the body's z axis from x [deg]; 0 if missing |
 | range | `min_distance`, `max_distance` | what it can measure [m]; 0.02 and 4 for an HC-SR04 |
 | beam | `beam_angle`, `n_rays` | the width of the cone [deg], and the rays cast across it |
 | rate | `update_rate` | readings per second |
+
+The robot file has two: `front-sonar` on the front of the chassis, and `rear-sonar` at
+`[-0.27, 0, 0.05]` with `"yaw": 180`, looking behind. Both cast 5 rays across 15 degrees, up to
+4 m, 20 times a second.
 
 What the model leaves out:
 
@@ -400,8 +409,7 @@ With exact geometry and wheels that hardly slip, the simulation favours the whee
 length that is a little off, as on a real robot, the gyroscope wins.
 
 What `DiffDriveOdometry` leaves out: it gives a pose, not how uncertain the pose is. A filter
-that combines odometry with other sensors, such as
-\ref bitrl::estimation::ExtendedKalmanFilter "ExtendedKalmanFilter", needs that too.
+that combines odometry with other sensors needs that too; see \ref bitrl_sensors_fusion.
 
 ## Downward camera
 
@@ -450,6 +458,58 @@ slow reader never falls behind the camera. If the stream breaks, it opens it aga
 It reads the stream with OpenCV's FFmpeg backend, and an OpenCV built without FFmpeg gets no
 frames; \ref bitrl::sensors::backends::MJPEG_HTTPCameraBackend::can_read_streams "can_read_streams"
 tells. Ubuntu's `libopencv-dev` has FFmpeg.
+
+\anchor bitrl_sensors_fusion
+## Fusing the sensors
+
+Each sensor alone has its faults: odometry drifts, the line says nothing about where the robot is
+along it, and a sonar hears whatever is nearest. Together they can do better.
+\ref bitrl::estimation::DiffDriveEKF "DiffDriveEKF" is an extended Kalman filter for the
+differential drive robot that uses them all. Its state is the centre of the axle, the heading and
+the bias of the gyroscope, \f$(x, y, \psi, b)\f$, with its covariance.
+
+| Sensor | What the filter does with it | Call |
+| ------ | ---------------------------- | ---- |
+| encoders and gyroscope | **predict**: the distance from the wheels and the turn from the gyroscope less its bias, \f$\Delta\psi = (g - b)\,\Delta t\f$ | `predict(distance, gyro_z, dt)` |
+| infrared elements | **correct**: where the line is under them, \ref bitrl::sensors::InfraredSensor::line_position "line_position()", should be on the track | `update_line(points, sigma)` |
+| downward camera | **correct**: where the line crosses bands of its image, \ref bitrl::sensors::DownwardCamera::line_points "line_points()", should be on the track | `update_line(points, sigma)` |
+| ultrasonic sensors | **correct**: each should read the distance to the nearest wall or box of the map along its beam | `update_range(sensor, distance)` |
+
+The filter knows the floor and the room from a \ref bitrl::estimation::DiffDriveMap "DiffDriveMap":
+the track, a \ref bitrl::trajectory::RoundedRectangle "RoundedRectangle", and the walls and boxes,
+as rectangles. A line point at the robot's estimated pose has a signed distance to the track, which
+the filter takes the sensor to measure as 0. A range is the shortest of rays cast through the map
+across the beam, as the simulated sensor casts them. A reading whose innovation is too large for
+its covariance, \f$\nu^T S^{-1} \nu\f$ over 9 per value, is kept out by a gate, and a sonar that
+hears nothing, or whose map says there is nothing in range, is not used.
+
+@code{.cpp}
+using bitrl::estimation::DiffDriveEKF;
+DiffDriveEKF ekf(map, {x0, y0, yaw0}, DiffDriveEKF::Parameters{});
+// where it is from the centre of the axle and where it looks, its beam, rays and range
+const DiffDriveEKF::RangeSensor front{0.37, 0.0, 0.0, 15.0 * PI / 180.0, 5, 0.02, 4.0};
+
+ekf.predict(distance, gyro_z, dt);                    // every reading of the IMU
+ekf.update_line(camera.line_points(view), 0.01);      // every image
+const auto result = ekf.update_range(front, sonar.distance());
+if (!result.accepted) { /* the gate kept it out, or there was nothing to use */ }
+@endcode
+
+The filter is built on \ref bitrl::estimation::ExtendedKalmanFilter "ExtendedKalmanFilter", which
+predicts with a motion model and updates with any number of observation models, each with its own
+noise and gate. \ref bitrl_example_ekf_sensor_fusion drives a lap of the track with odometry and
+the filter side by side. Off the true position, at most over the lap:
+
+| Run | Odometry | The filter |
+| --- | -------- | ---------- |
+| as it is | 3.5 cm | 2.6 cm |
+| wheel radius taken 3 % too big | 13 cm | 3.1 cm |
+| the same, without the sonars | 13 cm | 10 cm |
+| the same, with the sonars only | 13 cm | 2.8 cm |
+| the gyroscope's bias not measured first | 40 cm | 2.7 cm |
+
+The line fixes the position across the track and the heading, the sonars the position along it,
+and the filter learns the gyroscope's bias as it drives, 0.0032 rad/s against the true 0.0030.
 
 \anchor bitrl_sensors_mqtt
 ## Real sensors over MQTT
@@ -501,7 +561,7 @@ bitrl's. A program with a few sensors spends some seconds starting.
 | \ref bitrl::sensors::OdometryMessage "OdometryMessage" | `{"x": ..., "y": ..., "yaw": ..., "timestamp": ...}`, a pose estimate from a board |
 | \ref bitrl::sensors::CameraMessage "CameraMessage" | a base64 JPEG image, for a camera that publishes over MQTT |
 | \ref bitrl::sensors::EigenVectorMessage "EigenVectorMessage" | a vector of numbers as `[1.0, 2.0, ...]` |
-| \ref bitrl::sensors::EKFSensorFusion "EKFSensorFusion" | an extended Kalman filter that reads its inputs and sensor readings from MQTT topics |
+| \ref bitrl::sensors::EKFSensorFusion "EKFSensorFusion" | an extended Kalman filter that reads its inputs and sensor readings from MQTT topics; for the simulated robot, see \ref bitrl_sensors_fusion |
 
 ## Adding a sensor
 
