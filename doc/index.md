@@ -1,7 +1,7 @@
 # bitrl & cuberl documentation
 
 `bitrl` is an effort to provide implementations and wrappers of environments suitable for training reinforcement learning agents
-using  C++. You can find a very basic example here \ref bitrl_example_1. 
+using  C++. You can find a very basic example here \ref bitrl_example_basic_types, and all the examples, in order, in \ref bitrl_examples. 
 
 `cuberl` is an extension of bitrl that provides implementations of various reinforcement learning algorithms. 
 

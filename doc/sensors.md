@@ -40,11 +40,13 @@ The examples that use them:
 
 | Example | Sensors |
 | ------- | ------- |
-| \ref bitrl_example_30 | real motors on a board, whose encoders report over MQTT |
-| \ref bitrl_example_31 | the camera stream from a Raspberry Pi, and the robot's DownwardCamera |
-| \ref bitrl_example_32 | the infrared elements and the ultrasonic sensor |
-| \ref bitrl_example_33 | the IMU, with the sensors of example 32 |
-| \ref bitrl_example_34 | the wheel encoders for odometry, with the sensors of example 33 |
+| \ref bitrl_example_chrono_ultrasonic_sensor | a simulated ultrasonic sensor on its own |
+| \ref bitrl_example_mqtt_ultrasonic_sensor | a real ultrasonic sensor that publishes over MQTT |
+| \ref bitrl_example_real_dc_motors | real motors on a board, whose encoders report over MQTT |
+| \ref bitrl_example_pi_camera_line_following | the camera stream from a Raspberry Pi, and the robot's DownwardCamera |
+| \ref bitrl_example_line_following_infrared_sonar | the infrared elements and the ultrasonic sensor |
+| \ref bitrl_example_imu_heading | the IMU, with the sensors of the line following example |
+| \ref bitrl_example_wheel_odometry | the wheel encoders for odometry, with the sensors of the IMU example |
 
 ## How a sensor works
 
@@ -267,7 +269,7 @@ generator with a fixed seed, so a simulation repeats.
 The robot file has values like an MPU-6050's after its factory calibration: a bias of a few
 mrad/s, which is a fraction of a degree a second, and a few mrad/s and 0.04 m/s² of noise at 100
 readings a second. Integrated, the bias makes a heading drift by \f$b_g\,t\f$, and the noise adds a
-random walk that grows with \f$\sigma_g \sqrt{\Delta t\, t}\f$; \ref bitrl_example_33 measures the
+random walk that grows with \f$\sigma_g \sqrt{\Delta t\, t}\f$; \ref bitrl_example_imu_heading measures the
 bias and takes it off.
 
 What the model leaves out:
@@ -342,7 +344,7 @@ the reports of the board that drives the motors,
 The board turns its counts into the distance each wheel has rolled [m], and the backend divides by
 the wheel radius. The encoder angle is the angle the board last reported, counted from its first
 report; unlike `angle()`, which the backend smooths and predicts between reports for Chrono, it is
-not filtered. See \ref bitrl_example_30.
+not filtered. See \ref bitrl_example_real_dc_motors.
 
 ### Odometry
 
@@ -387,7 +389,7 @@ Odometry adds up small steps, so its errors never go away:
 A heading error is the worst, as every step after it goes a little the wrong way and the position
 error grows with the distance driven. A gyroscope's heading has none of the wheels' errors, so
 robots take their distance from the wheels and their heading from a gyroscope.
-\ref bitrl_example_34 runs both over a lap of 14 m:
+\ref bitrl_example_wheel_odometry runs both over a lap of 14 m:
 
 | Odometry | Exact geometry | Axle length 2 % off |
 | -------- | -------------- | ------------------- |
@@ -428,14 +430,14 @@ bodies in the Chrono world do not show in it.
 
 It is not a \ref bitrl::sensors::SensorBase "SensorBase": call
 \ref bitrl::rb::bitrl_chrono::CHRONO_DiffDriveRobot::camera_view "camera_view" for an image. See
-\ref bitrl_example_31.
+\ref bitrl_example_pi_camera_line_following.
 
 ## Camera stream
 
 \ref bitrl::sensors::backends::MJPEG_HTTPCameraBackend "MJPEG_HTTPCameraBackend" receives the
 frames of a real camera as an MJPEG stream over HTTP, the `multipart/x-mixed-replace` response
 that many cameras and camera servers give, such as the Raspberry Pi server of
-\ref bitrl_example_31. A thread of its own reads the stream and keeps only the latest frame, so a
+\ref bitrl_example_pi_camera_line_following. A thread of its own reads the stream and keeps only the latest frame, so a
 slow reader never falls behind the camera. If the stream breaks, it opens it again.
 
 | Setting | `Config` | Meaning |
