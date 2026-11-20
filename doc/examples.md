@@ -2,13 +2,13 @@
 
 # Examples
 
-This section contains practical examples demonstrating how to use _bitrl_ and _cuberl_.
+This section contains practical examples demonstrating how to use _bitsim_ and _bitrl_.
+
+## bitsim examples
+
+The bitsim examples, grouped by topic, are listed in \ref bitrl_examples.
 
 ## bitrl examples
-
-The bitrl examples, grouped by topic, are listed in \ref bitrl_examples.
-
-## cuberl examples
 
 - \ref cuberl_example_1
 - \ref cuberl_example_8
