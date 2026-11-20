@@ -2,12 +2,12 @@
 
 # Sensors
 
-bitrl models the sensors of a small mobile robot. Each sensor can be **simulated**, so that a
+bitsim models the sensors of a small mobile robot. Each sensor can be **simulated**, so that a
 robot in a Chrono world senses that world, or **real**, a sensor on a board that sends its
 readings over MQTT. The application reads both the same way, so the code that drives a simulated
 robot drives a real one too.
 
-This page lists the sensors bitrl supports, what each of them reads, how the simulated ones are
+This page lists the sensors bitsim supports, what each of them reads, how the simulated ones are
 modelled and what that model leaves out, and the messages the real ones send.
 
 ## The sensors at a glance
@@ -26,7 +26,7 @@ The wheel encoders are part of the motors, not sensors of their own, and with
 \ref bitrl_sensors_odometry. \ref bitrl::estimation::DiffDriveEKF "DiffDriveEKF" fuses all of
 them; see \ref bitrl_sensors_fusion.
 
-What each needs when bitrl is built; \ref bitrl_install says how to build it:
+What each needs when bitsim is built; \ref bitrl_install says how to build it:
 
 | Backend | Needs |
 | ------- | ----- |
@@ -313,7 +313,7 @@ zeros. See \ref bitrl_sensors_mqtt.
 An encoder on a wheel's motor counts how far the wheel turns: a disc with slots, or magnets, on the
 shaft, and a sensor that counts them going by. The DC gear motors of the robot have one with 660
 counts a turn of the wheel, so it measures the wheel's angle in steps of \f$2\pi/660\f$, about
-half a degree. On a real robot the encoder is part of the motor and its board, so in bitrl it is
+half a degree. On a real robot the encoder is part of the motor and its board, so in bitsim it is
 part of the motor too: it is not a \ref bitrl::sensors::SensorBase "SensorBase".
 
 **Values:** \ref bitrl::actuators::DCMotor::encoder_angle "DCMotor::encoder_angle", the angle of
@@ -552,7 +552,7 @@ mosquitto_pub -t odysseus/sonar -m '{"distance": 35, "unit": "cm"}'
 @endcode
 
 Every MQTT client after the first in a program takes about 2 s to connect; that is Paho's, not
-bitrl's. A program with a few sensors spends some seconds starting.
+bitsim's. A program with a few sensors spends some seconds starting.
 
 ## Other pieces
 

@@ -33,7 +33,7 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Update bitrl and cuberl
+      - name: Update bitsim and bitrl
         id: update
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
@@ -42,7 +42,7 @@ jobs:
           fi
           git submodule update --remote libs/bitrl libs/cuberl
           if git diff --quiet; then
-            echo "bitrl and cuberl have not changed"
+            echo "bitsim and bitrl have not changed"
             # A nightly run with nothing new has nothing to deploy
             if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
               echo "deploy=true" >> "$GITHUB_OUTPUT"
@@ -54,7 +54,7 @@ jobs:
           git submodule status
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "docs: update bitrl and cuberl"
+          git commit -am "docs: update bitsim and bitrl"
           # Pushes made with the workflow token do not start this workflow again
           git push
           echo "deploy=true" >> "$GITHUB_OUTPUT"

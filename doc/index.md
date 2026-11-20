@@ -1,22 +1,28 @@
-# bitrl & cuberl documentation
+# bitsim & bitrl documentation
 
-`bitrl` is an effort to provide implementations and wrappers of environments suitable for training reinforcement learning agents
-using  C++. You can find a very basic example here \ref bitrl_example_basic_types, and all the examples, in order, in \ref bitrl_examples. 
+Two libraries are documented here.
 
-`cuberl` is an extension of bitrl that provides implementations of various reinforcement learning algorithms. 
-
-Gymnasium environments exposed over a REST like API can be found at: <a href="https://github.com/pockerman/bitrl-rest-api">bitrl-rest-api</a>.
-Various RL algorithms using the environments can be found at <a href="https://github.com/pockerman/cuberl/tree/master">cuberl</a>.
+- <a href="https://github.com/pockerman/bitsim">bitsim</a> is a C++20 library to model, simulate,
+  estimate and control robots, from the maths of frames and kinematics to a simulated robot that drives
+  with real motors and a real camera. Its CMake package and C++ namespace are still called `bitrl`.
+  You can find a very basic example in \ref bitrl_example_basic_types, and all the examples, in order,
+  in \ref bitrl_examples.
+- <a href="https://github.com/pockerman/bitrl">bitrl</a> builds on bitsim for reinforcement learning.
+  It has the environments, among them grid worlds, Connect2, multi armed bandits, Chrono robots and
+  Gymnasium environments, and implementations of reinforcement learning algorithms. Its C++ namespace is
+  still `cuberl`. The Gymnasium environments run on the
+  <a href="https://github.com/pockerman/bitrl-rest-api">bitrl-rest-api</a> server, and bitrl talks to
+  them over HTTP.
 
 ## Installation
 
-- bitrl: \ref bitrl_install lists the dependencies and explains how to build and install the library.
-- cuberl needs bitrl and, optionally, OpenCV, PahoMqttCpp, PyTorch and Chrono. See the
-  <a href="https://github.com/pockerman/cuberl/tree/master">cuberl README</a>.
+- bitsim: \ref bitrl_install lists the dependencies and explains how to build and install the library.
+- bitrl needs bitsim, libtorch and TBB. See the
+  <a href="https://github.com/pockerman/bitrl">bitrl README</a>.
 
 ## Sensors
 
-\ref bitrl_sensors_guide lists the sensors bitrl supports: what each reads, its simulated and real
+\ref bitrl_sensors_guide lists the sensors bitsim supports: what each reads, its simulated and real
 backends, how the simulated ones are modelled and what the models leave out, and the MQTT messages
 of the real ones.
 
