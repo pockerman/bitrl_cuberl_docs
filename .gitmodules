@@ -1,6 +1,6 @@
 [submodule "libs/cuberl"]
 	path = libs/cuberl
-	url = https://github.com/pockerman/cuberl.git
+	url = https://github.com/pockerman/bitrl.git
 [submodule "libs/bitrl"]
 	path = libs/bitrl
-	url = https://github.com/pockerman/bitrl.git
+	url = https://github.com/pockerman/bitsim.git
