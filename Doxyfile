@@ -864,8 +864,8 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = libs/cuberl/include/cuberl libs/cuberl/examples \
-                         libs/bitrl/src/bitrl libs/bitrl/examples libs/bitrl/doc \
+INPUT                  = libs/bitrl/include/bitrl libs/bitrl/examples \
+                         libs/bitsim/src/bitsim libs/bitsim/examples libs/bitsim/doc \
                          doc/
 
 # This tag can be used to specify the character encoding of the source files
@@ -954,7 +954,7 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = libs/bitrl/src/bitrl/extern
+EXCLUDE                = libs/bitsim/src/bitsim/extern
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
@@ -971,7 +971,7 @@ EXCLUDE_SYMLINKS       = NO
 # exclude all test directories for example use the pattern */test/*
 
 EXCLUDE_PATTERNS       = */test/* \
-                         */src/bitrl/extern/* 
+                         */src/bitsim/extern/* 
 
 # The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
 # (namespaces, classes, functions, etc.) that should be excluded from the
@@ -988,7 +988,7 @@ EXCLUDE_SYMBOLS        =
 # that contain example code fragments that are included (see the \include
 # command).
 
-EXAMPLE_PATH           = libs/bitrl/examples libs/cuberl/examples
+EXAMPLE_PATH           = libs/bitsim/examples libs/bitrl/examples
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp and
@@ -2257,7 +2257,7 @@ INCLUDE_FILE_PATTERNS  =
 # recursively expanded use the := operator instead of the = operator.
 # This tag requires that the tag ENABLE_PREPROCESSING is set to YES.
 
-PREDEFINED             = BITRL_CHRONO BITRL_IRRLICHT BITRL_MQTT BITRL_OPENCV BITRL_LOG
+PREDEFINED             = BITSIM_CHRONO BITSIM_IRRLICHT BITSIM_MQTT BITSIM_OPENCV BITSIM_LOG
 
 # If the MACRO_EXPANSION and EXPAND_ONLY_PREDEF tags are set to YES then this
 # tag can be used to specify a list of macro names that should be expanded. The

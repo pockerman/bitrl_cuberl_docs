@@ -1,7 +1,7 @@
 name: Build and Deploy Docs
 
 # The site is rebuilt on every push to main. Every night, and when started by
-# hand, the workflow first moves the bitrl and cuberl submodules to the latest
+# hand, the workflow first moves the bitsim and bitrl submodules to the latest
 # commit of their default branch, commits that to main, and rebuilds the site
 # if anything changed.
 on:
@@ -40,7 +40,7 @@ jobs:
             echo "deploy=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git submodule update --remote libs/bitrl libs/cuberl
+          git submodule update --remote libs/bitsim libs/bitrl
           if git diff --quiet; then
             echo "bitsim and bitrl have not changed"
             # A nightly run with nothing new has nothing to deploy
