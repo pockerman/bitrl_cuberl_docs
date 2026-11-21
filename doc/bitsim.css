@@ -1,0 +1,11 @@
+/* Additions to Doxygen's own style for this site */
+
+/* The images in a table of more than one column, such as the grids of GIFs on
+   the front pages of bitsim and bitrl, share the width of the page. A table of
+   one column, as on the example pages, keeps its images at their own size. The
+   first row of a Markdown table is its header, so its cells are th. */
+table.markdownTable th:not(:only-child) img,
+table.markdownTable td:not(:only-child) img {
+    max-width: min(480px, 42vw);
+    height: auto;
+}
