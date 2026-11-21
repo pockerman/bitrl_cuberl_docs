@@ -1,4 +1,4 @@
-# bitrl_cuberl_docs
+# bisim_bitrl_docs
 
 The documentation of bitsim, the robotics library, and bitrl, the reinforcement learning
 library. They are the submodules `libs/bitsim` and `libs/bitrl`.
