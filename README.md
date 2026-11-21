@@ -1,7 +1,20 @@
-# bisim_bitrl_docs
+# bitsim_bitrl_docs
 
 The documentation of bitsim, the robotics library, and bitrl, the reinforcement learning
-library. They are the submodules `libs/bitsim` and `libs/bitrl`.
+library built on it, published at <https://pockerman.github.io/bitsim_bitrl_docs/>. The
+libraries are the submodules `libs/bitsim` and `libs/bitrl`.
+
+## Build it
+
+```
+git clone --recurse-submodules https://github.com/pockerman/bitsim_bitrl_docs
+cd bitsim_bitrl_docs
+doxygen Doxyfile
+```
+
+writes the site to `docs/html`. It needs Doxygen 1.9 or newer and Graphviz. `doc/` has the
+front page and the guides, and `DoxygenLayout.xml` the menu; the example pages live with the
+examples in the libraries.
 
 ## Update the documentation
 

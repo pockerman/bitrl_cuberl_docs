@@ -1,7 +1,5 @@
 \page bitsim_sensors_guide Sensors
 
-# Sensors
-
 bitsim models the sensors of a small mobile robot. Each sensor can be **simulated**, so that a
 robot in a Chrono world senses that world, or **real**, a sensor on a board that sends its
 readings over MQTT. The application reads both the same way, so the code that drives a simulated
